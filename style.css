@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("/Font-Raleway/Raleway-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+}
+
+.navbar-toggle {
+  height: 80px;
+}
+
+.logo {
+  height: 80px;
+  padding: 5px 10px;
+}
+
+.icon-bar {
+  background: black;
+}
+
+li a {
+  color: #46545F;
+}
+
+.header-1 {
+  text-align: center;
+}
+
+.img-responsive {
+  padding: 30px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  display: block;
+  margin-bottom: 25rem;
+  color: #cdcdcd
+}
