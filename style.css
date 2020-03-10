@@ -24,10 +24,6 @@
   background: black;
 }
 
-h1 {
-  font-size: 200px;
-}
-
 li {
   color: #46545F
 }
@@ -52,6 +48,8 @@ a.active {
 
 #about {
   font-size: 3vh;
+  line-height:
+  margin-top: 5vh;
 }
 
 #footer {
