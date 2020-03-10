@@ -1,10 +1,9 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("/Font-Raleway/Raleway-Regular.ttf");
-}
-
 * {
+    font-weight: 300;
     box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #46545e
 }
 
 .navbar-style {
@@ -15,41 +14,61 @@
   height: 80px;
 }
 
+.container {
+  margin: 0px 0px 0px 10vh
+
+}
+
 .logo {
-  height: 100px;
-  padding: 5px 10px;
+  height: 80px;
+  padding: 5px 20px 5px 10px;
 }
 
 .icon-bar {
   background: black;
 }
 
-li {
-  color: #46545F
+li a {
+  color: #46545e
 }
 
-li a {
-  color: #c19b1d;
+li a:hover {
+  color: #fbaf40
 }
 
 a.active {
-  color: #c19b1d;
+  color: #fbaf40;
 }
 
 .header-1 {
-  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: left;
+  margin: 5vw 0vh 0vh 0px;
+
 }
 
 .img-responsive {
-  padding: 2vh 2vh 3vh 2vh;
-  margin-bottom: 20px;
-  text-align: center;
+  padding: None;
+  margin-top: -14vw;
+  padding: 2vw;
+
 }
 
+.col-sm-6 li a {
+  text-decoration: underline;
+  color: #fbaf40;
+}
+
+.col-sm-6 li a:hover {
+  color: #46545e;
+}
+
+
 #about {
-  font-size: 3vh;
-  line-height:
-  margin-top: 5vh;
+  margin: 10px 0px 200px 20px;
+  padding: 0px;
+  font-size: x-large;
 }
 
 #footer {
@@ -58,4 +77,21 @@ a.active {
   display: block;
   margin-bottom: 10px;
   color: #cdcdcd
+}
+
+
+/* mobile view */
+
+@media(max-width: 770px) {
+  .header-1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .img-responsive{
+    padding: 3vh 2vh 3vh 2vh;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
 }
