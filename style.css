@@ -12,26 +12,22 @@
   height: 60px;
 }
 
-.container {
-  margin: 0px 0px 0px 0px;
-
-}
 
 .logo {
   height: 100px;
-  margin: 10px 20px 5px 5px;
+  margin: 10px 20px 5px 20px;
 }
 
 .icon-bar {
   background: black;
 }
 
-#micon.collapse.navbar-collapse {
+ul.nav.navbar-nav.navbar-right {
   margin-top: 30px;
-  font-size: 20px;
+  margin-right: 20px;
+  font-size: 15px;
   letter-spacing: 5px;
 }
-
 
 
 li a {
@@ -51,14 +47,14 @@ h1.header-1 {
   font-size: 50px;
   letter-spacing: 5px;
   text-align: left;
-  margin: 5vw 0vh 3vh 0px;
+  margin: 3vw 0vh 5vh 0px;
 
 }
 
 .img-responsive {
   padding: None;
-  margin-top: -14vw;
-  padding: 2vw;
+  margin-top: -22vw;
+  padding: 10vw;
 
 }
 
@@ -71,20 +67,20 @@ h1.header-1 {
   color: #46545e;
 }
 
-
 #about {
-  margin: 10px 0px 200px 20px;
+  margin: 10px 0px 20px 20px;
   padding: 0px;
   font-size: x-large;
   letter-spacing: 5px;
 }
 
 #footer {
+  position: static;
   text-align: center;
+  bottom: 40px;
   font-size: 18px;
-  display: block;
-  margin-bottom: 10px;
   color: #cdcdcd
+
 }
 
 
@@ -92,15 +88,18 @@ h1.header-1 {
 
 @media(max-width: 770px) {
   h1.header-1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    margin: 0px;
     letter-spacing: 5px;
   }
 
   .img-responsive{
-    padding: 6vh 2vh 3vh 2vh;
+    padding: 0px 20px 20px 20px;
     margin-top: 0px;
     margin-bottom: 10px;
+  }
+
+  #about {
+    padding: 0px 0px 0px 3vw
   }
 }
