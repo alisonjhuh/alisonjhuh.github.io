@@ -58,6 +58,10 @@ h1.header-1 {
 
 }
 
+#desc.col-sm-6 {
+  margin-left: -3vw;
+}
+
 .col-sm-6 li a {
   text-decoration: underline;
   color: #fbaf40;
@@ -97,6 +101,10 @@ h1.header-1 {
     padding: 0px 20px 20px 20px;
     margin-top: 0px;
     margin-bottom: 10px;
+  }
+
+  #desc.col-sm-6 {
+    margin: 10px 0px 20px 20px;
   }
 
   #about {
