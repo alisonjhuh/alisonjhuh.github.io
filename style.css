@@ -95,10 +95,11 @@ h1.header-1 {
     font-size: 50px;
     text-align: center;
     margin: 0px;
+    letter-spacing: 5px;
   }
 
   .img-responsive{
-    padding: 3vh 2vh 3vh 2vh;
+    padding: 6vh 2vh 3vh 2vh;
     margin-top: 0px;
     margin-bottom: 10px;
   }
