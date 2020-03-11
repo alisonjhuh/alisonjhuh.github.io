@@ -6,27 +6,33 @@
     color: #46545e
 }
 
-.navbar-style {
-  box-shadow: 0 5px 10px #efefef;
-}
+
 
 .navbar-toggle {
-  height: 80px;
+  height: 60px;
 }
 
 .container {
-  margin: 0px 0px 0px 10vh
+  margin: 0px 0px 0px 0px;
 
 }
 
 .logo {
-  height: 80px;
-  padding: 5px 20px 5px 10px;
+  height: 100px;
+  margin: 10px 20px 5px 5px;
 }
 
 .icon-bar {
   background: black;
 }
+
+#micon.collapse.navbar-collapse {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+
 
 li a {
   color: #46545e
@@ -40,11 +46,12 @@ a.active {
   color: #fbaf40;
 }
 
-.header-1 {
+h1.header-1 {
   font-weight: 400;
   font-size: 50px;
+  letter-spacing: 5px;
   text-align: left;
-  margin: 5vw 0vh 0vh 0px;
+  margin: 5vw 0vh 3vh 0px;
 
 }
 
@@ -69,6 +76,7 @@ a.active {
   margin: 10px 0px 200px 20px;
   padding: 0px;
   font-size: x-large;
+  letter-spacing: 5px;
 }
 
 #footer {
@@ -83,7 +91,7 @@ a.active {
 /* mobile view */
 
 @media(max-width: 770px) {
-  .header-1 {
+  h1.header-1 {
     font-size: 50px;
     text-align: center;
     margin: 0px;
