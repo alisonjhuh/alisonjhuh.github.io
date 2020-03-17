@@ -6,7 +6,7 @@
     color: #46545e
 }
 
-
+/* UNIVERSAL */
 
 .navbar-toggle {
   height: 60px;
@@ -51,6 +51,17 @@ h1.header-1 {
 
 }
 
+#footer {
+  position: static;
+  text-align: center;
+  bottom: 40px;
+  font-size: 18px;
+  color: #cdcdcd
+
+}
+
+/* HOMEPAGE */
+
 .img-responsive {
   padding: None;
   margin-top: -22vw;
@@ -78,18 +89,6 @@ h1.header-1 {
   letter-spacing: 5px;
 }
 
-#footer {
-  position: static;
-  text-align: center;
-  bottom: 40px;
-  font-size: 18px;
-  color: #cdcdcd
-
-}
-
-
-/* mobile view */
-
 @media(max-width: 770px) {
   h1.header-1 {
     font-size: 40px;
@@ -110,4 +109,41 @@ h1.header-1 {
   #about {
     padding: 0px 0px 0px 3vw
   }
+}
+
+
+/* WORK */
+
+#title {
+  font-size: 25px;
+  font-weight: 350;
+}
+
+#co-logo.col-sm-6 {
+  margin-left: 10vw;
+}
+
+#experience.col-sm-6 {
+  margin-left: -20vw;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#co {
+  margin-top: -0.5vh;
+}
+
+
+@media(max-width: 770px) {
+  #co-logo.col-sm-6 {
+    margin-left: -5vw;
+    text-align: center;
+  }
+
+  #experience.col-sm-6 {
+    margin: 0px;
+    padding: 0px 3vw 0px 3vw;
+    text-align: center;
+  }
+
 }
