@@ -115,8 +115,9 @@ h1.header-1 {
 /* WORK */
 
 #title {
+  margin-top: -0.5vh;
   font-size: 25px;
-  font-weight: 350;
+  font-weight: 400;
 }
 
 #co-logo.col-sm-6 {
@@ -129,10 +130,9 @@ h1.header-1 {
   letter-spacing: 2px;
 }
 
-#co {
-  margin-top: -0.5vh;
+#location-exp {
+  font-weight: 350;
 }
-
 
 @media(max-width: 770px) {
   #co-logo.col-sm-6 {
