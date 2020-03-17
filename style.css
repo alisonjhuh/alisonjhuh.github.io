@@ -121,11 +121,11 @@ h1.header-1 {
 }
 
 #co-logo.col-sm-6 {
-  margin-left: 10vw;
+  text-align: center;
 }
 
 #experience.col-sm-6 {
-  margin-left: -20vw;
+  margin-left: -8vw;
   font-size: 18px;
   letter-spacing: 2px;
 }
