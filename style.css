@@ -114,6 +114,13 @@ h1.header-1 {
 
 /* WORK */
 
+#group {
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 3vh 0vh 5vh 20vh;
+}
+
 #title {
   margin-top: -0.5vh;
   font-size: 25px;
@@ -135,8 +142,16 @@ h1.header-1 {
 }
 
 @media(max-width: 770px) {
+  #group {
+      text-align: center;
+      padding: 3vw 3vw 3vw 3vw;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
   #co-logo.col-sm-6 {
     margin-left: -5vw;
+    padding-bottom: 5vh
     text-align: center;
   }
 
