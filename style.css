@@ -43,18 +43,18 @@ a.active {
 }
 
 h1.header-1 {
-  font-weight: 400;
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 3px;
   text-align: left;
-  margin: 3vw 0vh 5vh 0px;
+  margin: 5vw 0vh 5vh 0vw;
 
 }
 
 #footer {
-  position: static;
+  position: relative;
   text-align: center;
-  bottom: 40px;
+  margin-top: 10vw;
   font-size: 18px;
   color: #cdcdcd
 
@@ -63,9 +63,7 @@ h1.header-1 {
 /* HOMEPAGE */
 
 .img-responsive {
-  padding: None;
-  margin-top: -22vw;
-  padding: 10vw;
+margin-top: -8vw;
 
 }
 
@@ -83,10 +81,10 @@ h1.header-1 {
 }
 
 #about {
-  margin: 10px 0px 20px 20px;
-  padding: 0px;
-  font-size: x-large;
-  letter-spacing: 5px;
+  margin: 0vw 0vw -0vw -1.5vw;
+  font-size: large;
+  line-height: 1.75;
+  letter-spacing: 2px;
 }
 
 @media(max-width: 770px) {
@@ -94,20 +92,17 @@ h1.header-1 {
     font-size: 40px;
     text-align: center;
     letter-spacing: 5px;
+    margin-top: 0vw;
   }
 
   .img-responsive{
-    padding: 0px 20px 20px 20px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-
-  #desc.col-sm-6 {
-    margin: 10px 0px 20px 20px;
+    padding: 20vw;
+    margin: -22vw 0vw 0vw 0vw;
   }
 
   #about {
-    padding: 0px 0px 0px 3vw
+    margin: -15vw 0px 3vw 8vw;
+    padding: -10px 0px 0vw 3vw
   }
 }
 
@@ -118,7 +113,7 @@ h1.header-1 {
     font-weight: 400;
     font-size: 50px;
     letter-spacing: 5px;
-    margin: 3vh 0vh 5vh 20vh;
+    margin: 3vh 0vh 5vh 5vw;
 }
 
 #title {
