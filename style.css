@@ -64,7 +64,6 @@ h1.header-1 {
 
 .img-responsive {
 margin-top: -8vw;
-
 }
 
 #desc.col-sm-6 {
@@ -97,7 +96,7 @@ margin-top: -8vw;
 
   .img-responsive{
     padding: 20vw;
-    margin: -22vw 0vw 0vw 0vw;
+    margin: -20vw 0vw 0vw 0vw;
   }
 
   #about {
