@@ -45,6 +45,7 @@ a.active {
 h1.header-1 {
   font-weight: 300;
   font-size: 30px;
+  line-height: 1.5;
   letter-spacing: 3px;
   text-align: left;
   margin: 5vw 0vh 5vh 0vw;
@@ -63,7 +64,7 @@ h1.header-1 {
 /* HOMEPAGE */
 
 .img-responsive {
-margin-top: -8vw;
+margin-top: -10vw;
 }
 
 #desc.col-sm-6 {
