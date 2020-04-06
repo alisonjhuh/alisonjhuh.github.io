@@ -56,9 +56,30 @@ h1.header-1 {
   position: relative;
   text-align: center;
   margin-top: 10vw;
-  font-size: 18px;
+  font-size: large;
   color: #cdcdcd
 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-twitter {
+  color: #00acee;
 }
 
 /* HOMEPAGE */
@@ -72,12 +93,12 @@ margin-top: -10vw;
 }
 
 .col-sm-6 li a {
-  text-decoration: underline;
   color: #fbaf40;
 }
 
 .col-sm-6 li a:hover {
   color: #46545e;
+  text-decoration: none;
 }
 
 #about {
@@ -109,8 +130,12 @@ margin-top: -10vw;
 
 /* WORK */
 
+#co {
+  font-weight: 350;
+}
+
 #group {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 50px;
     letter-spacing: 5px;
     margin: 3vh 0vh 5vh 5vw;
@@ -119,7 +144,7 @@ margin-top: -10vw;
 #title {
   margin-top: -0.5vh;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #co-logo.col-sm-6 {
@@ -133,7 +158,7 @@ margin-top: -10vw;
 }
 
 #location-exp {
-  font-weight: 350;
+  font-weight: 300;
 }
 
 @media(max-width: 765px) {
