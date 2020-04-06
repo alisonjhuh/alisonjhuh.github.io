@@ -87,7 +87,7 @@ margin-top: -8vw;
   letter-spacing: 2px;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 765px) {
   h1.header-1 {
     font-size: 40px;
     text-align: center;
@@ -136,7 +136,7 @@ margin-top: -8vw;
   font-weight: 350;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 765px) {
   #group {
       text-align: center;
       padding: 3vw 3vw 3vw 3vw;
