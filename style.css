@@ -103,11 +103,26 @@ margin-left: -3vw;
   text-decoration: none;
 }
 
-#about {
+#bio {
   margin: 0vw 0vw -0vw -1.5vw;
   font-size: large;
   line-height: 1.75;
   letter-spacing: 2px;
+}
+
+#down-indicator {
+    color: #46545e;
+    position: relative;
+    left: 50%;
+    margin-top: 10vw;
+    animation: bobble 1s infinite alternate;
+    cursor: pointer;
+}
+
+
+/* ABOUT */
+#about {
+  margin-top: 10vw;
 }
 
 @media(max-width: 765px) {

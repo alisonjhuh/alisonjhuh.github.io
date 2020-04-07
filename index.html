@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--AOS Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -35,13 +36,14 @@
       <div class="collapse navbar-collapse" id="micon">
           <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html" class="active">home</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a href="#about">about</a></li>
           <li><a href="experience.html">experience</a></li>
           </ul>
       </div>
   </nav>
 
-  <div class="row" data-aos="fade-up">
+  <div class="container-fluid" data-aos="fade-up">
+    <div class="row">
       <div class="col-sm-6">
       </div>
       <div class="col-sm-6" id="desc">
@@ -50,22 +52,54 @@
             <br> i'm ali 👋🏻😊
           </h1>
       </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+            <a href="index.html"><img src="images/ali-animated-01.png" class="img-circle img-responsive"></a>
+        </div>
+        <div class="col-sm-6" id="desc">
+            <ul id="bio">
+              <li>english + (aspiring) cs undergrad @ uc berkeley</li>
+              <li>digital marketing intern @ the <a href="https://funginstitute.berkeley.edu" class="text" target="_blank">fung institute</a></li>
+              <li>lower-case letter loyalist</li>
+              <li>public transit devotee</li>
+              <li><a href="https://open.spotify.com/user/1241342085?si=iYyyl7y-Rvuz80q19U-AdA" class"text" target="_blank">playlist</a> curator</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <i id="down-indicator" class="material-icons" onclick="scrollToContent();">
+          keyboard_arrow_down
+      </i>
+    </div>
   </div>
-  <div class="row" data-aos="fade-up">
+
+
+  <div class="container-fluid" data-aos="fade-up">
+    <div class="row" id="about">
       <div class="col-sm-3"></div>
-      <div class="col-sm-3">
-          <a href="index.html"><img src="images/ali-animated-01.png" class="img-circle img-responsive"></a>
+      <div class="col-sm-2" id="about-header">
+        <h1 class="header-1">
+          about me
+        </h1>
       </div>
-      <div class="col-sm-6" id="desc">
-          <ul id="about">
-            <li>english + (aspiring) cs undergrad @ uc berkeley</li>
-            <li>digital marketing intern @ the <a href="https://funginstitute.berkeley.edu" class="text" target="_blank">fung institute</a></li>
-            <li>lower-case letter loyalist</li>
-            <li>public transit devotee</li>
-            <li><a href="https://open.spotify.com/user/1241342085?si=iYyyl7y-Rvuz80q19U-AdA" class"text" target="_blank">playlist</a> curator</li>
-          </ul>
+      <div class="col-sm-7:"></div>
+    </div>
+    <div class="row" id="about-desc">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-2" id="about-header">
+          hi there! this page is in the middle of being updated! <br>
+          thanks for your patience!
       </div>
+      <div class="col-sm-7:"></div>
+    </div>
   </div>
+  <!--div class="row" data-aos="fade-up">
+    <i id="down-indicator" class="material-icons" onclick="scrollToContent();">
+        keyboard_arrow_down
+    </i>
+  </div-->
   </header>
 
 
@@ -87,4 +121,11 @@
     AOS.init({ duration: 1000, once: true });
   </script>
 </body>
+<script>
+  const scrollToContent = function () {
+      document.getElementById('about').scrollIntoView({
+        behavior: 'smooth'
+      });
+    };
+</script>
 </html>
