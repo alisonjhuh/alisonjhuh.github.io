@@ -10,11 +10,17 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <!--AOS Library -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   </head>
+
 
   <body>
     <header class="header">
-    <nav class="navbar  navbar-style">
+    <nav class="navbar navbar-style" data-aos="fade-down">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
             <span class="icon-bar"></span>
@@ -37,7 +43,7 @@
         </div>
     </nav>
 
-    <div class="container" style="margin-top: -5vh;">
+    <div class="container" style="margin-top: -5vh;" data-aos="fade-up">
     <div class="row" style="margin: 2vh 0px 10vh 0px;">
         <h1 id="group" style="padding-left: 3vw;">
         work
@@ -100,7 +106,7 @@
     </div>
     </div>
 
-    <footer>
+    <footer data-aos="fade-up">
       <div id="footer">
         <!-- Add icon library -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -112,6 +118,11 @@
           made with ♡ by ali huh
       </div>
     </footer>
+
+    <!--AOS -->
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
 
   </body>
 </html>

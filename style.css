@@ -48,7 +48,7 @@ h1.header-1 {
   line-height: 1.5;
   letter-spacing: 3px;
   text-align: left;
-  margin: 5vw 0vh 5vh 0vw;
+  margin-top: 5vw
 
 }
 
@@ -85,11 +85,13 @@ h1.header-1 {
 /* HOMEPAGE */
 
 .img-responsive {
+padding: 1.5vw;
 margin-top: -10vw;
+margin-left: -3vw;
 }
 
 #desc.col-sm-6 {
-  margin-left: -3vw;
+  margin-left: 0vw;
 }
 
 .col-sm-6 li a {
@@ -116,7 +118,7 @@ margin-top: -10vw;
     margin-top: 0vw;
   }
 
-  .img-responsive{
+  .img-responsive {
     padding: 20vw;
     margin: -20vw 0vw 0vw 0vw;
   }

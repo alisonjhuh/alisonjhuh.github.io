@@ -10,11 +10,16 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <!--AOS Library -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   </head>
 
   <body>
     <header class="header">
-    <nav class="navbar  navbar-style">
+    <nav class="navbar navbar-style" data-aos="fade-down">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
             <span class="icon-bar"></span>
@@ -36,12 +41,12 @@
     </nav>
 
 
-    <p style="text-align: center; margin-top: 50px">
+    <p style="text-align: center; margin-top: 50px" data-aos="fade-up">
       hi there! this page is in the middle of being updated! <br>
       thanks for your patience!
     </p>
 
-    <footer>
+    <footer data-aos="fade-up">
       <div id="footer">
         <!-- Add icon library -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,6 +58,11 @@
           made with ♡ by ali huh
       </div>
     </footer>
+
+    <!--AOS -->
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
 
   </body>
 </html>
