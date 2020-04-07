@@ -55,7 +55,8 @@ h1.header-1 {
 #footer {
   position: relative;
   text-align: center;
-  margin-top: 10vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   font-size: large;
   color: #cdcdcd
 
@@ -88,10 +89,6 @@ h1.header-1 {
 padding: 1.5vw;
 margin-top: -10vw;
 margin-left: -3vw;
-}
-
-#desc.col-sm-6 {
-  margin-left: 0vw;
 }
 
 .col-sm-6 li a {
@@ -164,12 +161,11 @@ margin-left: -3vw;
   font-weight: 300;
 }
 
-#co-logo.col-sm-6 {
+#co-logo.col-sm-2 {
   text-align: center;
 }
 
-#experience.col-sm-6 {
-  margin-left: -8vw;
+#experience.col-sm-5 {
   font-size: 18px;
   letter-spacing: 2px;
 }

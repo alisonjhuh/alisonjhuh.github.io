@@ -69,7 +69,7 @@
       </div>
     </div>
     <div class="row" data-aos="fade-up">
-      <i id="down-indicator" class="material-icons" onclick="scrollToContent();">
+      <i id="down-indicator" class="material-icons" onclick="scrollToId('about');">
           keyboard_arrow_down
       </i>
     </div>
@@ -122,10 +122,10 @@
   </script>
 </body>
 <script>
-  const scrollToContent = function () {
-      document.getElementById('about').scrollIntoView({
-        behavior: 'smooth'
-      });
-    };
+  const scrollToId = function (id) {
+    document.getElementById(id).scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
 </script>
 </html>
