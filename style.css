@@ -1,61 +1,90 @@
-* {
-    font-weight: 300;
-    box-sizing: border-box;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: #46545e
+/* ---------------------------------------------------- */
+/* --------------------- GENERAL ---------------------- */
+/* ---------------------------------------------------- */
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: white;
 }
-
-/* UNIVERSAL */
-
-.navbar-toggle {
-  height: 60px;
-}
-
 
 .logo {
-  height: 100px;
-  margin: 10px 20px 5px 20px;
+  height: 8rem;
+  margin: 2rem;
 }
 
-.icon-bar {
-  background: black;
+.gold-div {
+	background-color: #fbaf40;
+	position: fixed;
 }
 
-ul.nav.navbar-nav.navbar-right {
+/* ---------------------------------------------------- */
+/* -------------------- MENU/NAV ---------------------- */
+/* ---------------------------------------------------- */
+
+#menu {
+  font-size:45px;
+  cursor:pointer;
+  float: right;
+  margin-top: 2.5rem;
+  margin-right: 3rem;
+  color: black;
+}
+
+.overlay {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
   margin-top: 30px;
-  margin-right: 20px;
-  font-size: 15px;
-  letter-spacing: 5px;
 }
 
-
-li a {
-  color: #46545e
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-li a:hover {
-  color: #fbaf40
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
-a.active {
-  color: #fbaf40;
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
-h1.header-1 {
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 1.5;
-  letter-spacing: 3px;
-  text-align: left;
-  margin-top: 5vw
+/* ---------------------------------------------------- */
+/* --------------------- FOOTER ----------------------- */
+/* ---------------------------------------------------- */
 
-}
 
 #footer {
   position: relative;
   text-align: center;
   margin-top: 2vw;
+  padding-top: 5vw;
   margin-bottom: 2vw;
   font-size: large;
   color: #cdcdcd
@@ -63,86 +92,101 @@ h1.header-1 {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
+  padding: 15px;
+  width: 80px;
   text-decoration: none;
-  margin: 5px 2px;
+  color: black;
+  opacity: 0.5;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 1.0;
+    color: black;
 }
 
-.fa-instagram {
-  color: black;
+/* ---------------------------------------------------- */
+/* --------------------- INDEX ------------------------ */
+/* ---------------------------------------------------- */
+
+.gold-div {
+  height: 40%;
+	width: 40%;
+	top: 32%;
+	left: 48%;
+  z-index: 1;
+  opacity: 0.7;
 }
 
-.fa-twitter {
-  color: #00acee;
-}
-
-/* HOMEPAGE */
-
-.img-responsive {
-padding: 1.5vw;
-margin-top: -10vw;
-margin-left: -3vw;
-}
-
-.col-sm-6 li a {
-  color: #fbaf40;
-}
-
-.col-sm-6 li a:hover {
-  color: #46545e;
-  text-decoration: none;
-}
-
-#bio {
-  margin: 0vw 0vw -0vw -1.5vw;
-  font-size: large;
-  line-height: 1.75;
-  letter-spacing: 2px;
-}
-
-#down-indicator {
-    color: #46545e;
-    position: relative;
-    left: 50%;
-    margin-top: 10vw;
-    animation: bobble 1s infinite alternate;
-    cursor: pointer;
-}
-
-
-/* ABOUT */
-#about {
-  margin-top: 10vw;
-}
-
-@media(max-width: 765px) {
-  h1.header-1 {
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 5px;
-    margin-top: 0vw;
-  }
-
-  .img-responsive {
-    padding: 20vw;
-    margin: -20vw 0vw 0vw 0vw;
-  }
-
-  #about {
-    margin: -15vw 0px 3vw 8vw;
-    padding: -10px 0px 0vw 3vw
+@media(max-width: 1050px) {
+  .gold-div {
+    top: 30.5%;
+    left: 5%;
+    height: 50%;
+    width: 40%;
   }
 }
 
+/* ---------------------------------------------------- */
+/* --------------------- ABOUT ------------------------ */
+/* ---------------------------------------------------- */
 
-/* WORK */
+#iam-carousel {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+	text-align: left;
+	position: fixed;
+  left: 52%;
+  top: 40%;
+  width: 40%;
+  margin-bottom: 1vw
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+@media(max-width: 1050px) {
+  #iam-carousel {
+    font-size: 24px;
+    top: 35%;
+    width: 35%;
+    left: 8%;
+  }
+}
+
+#desc {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  position: fixed;
+  left: 52vw;
+  width: 32%;
+  top: 45%;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+@media(max-width: 1050px) {
+  #desc {
+    font-size:15px;
+    top: 42%;
+    left: 8%;
+  }
+}
+
+ #about .img-fluid {
+  width: 55rem;
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+@media(max-width: 1050px) {
+  #about .img-fluid {
+    padding: 0px;
+    margin: 0vw;
+  }
+}
+/* ---------------------------------------------------- */
+/* ------------------- EXPERIENCE --------------------- */
+/* ---------------------------------------------------- */
 
 #co {
   font-weight: 350;
