@@ -12,8 +12,8 @@ body {
 }
 
 .logo {
-  height: 8rem;
-  margin: 2rem;
+  height: 10vh;
+  margin: 1vh;
 }
 
 .gold-div {
@@ -29,9 +29,15 @@ body {
   font-size:45px;
   cursor:pointer;
   float: right;
-  margin-top: 2.5rem;
-  margin-right: 3rem;
+  margin-top: 1vh;
+  margin-right: 1vh;
   color: black;
+}
+
+@media(max-width: 1050px) {
+  #menu {
+    margin-top: 3vw;
+  }
 }
 
 .overlay {
@@ -70,8 +76,8 @@ body {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 1vh;
+  right: 1vh;
   font-size: 60px;
 }
 
@@ -104,12 +110,18 @@ body {
     color: black;
 }
 
+@media(max-width: 1050px) {
+  .fa {
+    width: 60px;
+  }
+}
+
 /* ---------------------------------------------------- */
 /* --------------------- INDEX ------------------------ */
 /* ---------------------------------------------------- */
 
 .gold-div {
-  height: 40%;
+  height: 36vh;
 	width: 40%;
 	top: 32%;
 	left: 48%;
@@ -119,16 +131,9 @@ body {
 
 @media(max-width: 1050px) {
   .gold-div {
-    top: 30.5%;
-    left: 5%;
-    height: 50%;
-    width: 40%;
+    display: none;
   }
 }
-
-/* ---------------------------------------------------- */
-/* --------------------- ABOUT ------------------------ */
-/* ---------------------------------------------------- */
 
 #iam-carousel {
   font-family: 'Montserrat', sans-serif;
@@ -147,7 +152,7 @@ body {
 @media(max-width: 1050px) {
   #iam-carousel {
     font-size: 24px;
-    top: 35%;
+    top: 50vw;
     width: 35%;
     left: 8%;
   }
@@ -166,24 +171,40 @@ body {
 
 @media(max-width: 1050px) {
   #desc {
-    font-size:15px;
-    top: 42%;
-    left: 8%;
+    font-size:18px;
+    position: relative;
+    width: 100vw;
+    left: auto;
+    text-align: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
 }
 
  #about .img-fluid {
-  width: 55rem;
+  height: 55vh;
+  width: auto;
+  margin-top: 5vw;
   padding-left: 12vw;
   padding-right: 12vw;
 }
 
 @media(max-width: 1050px) {
   #about .img-fluid {
+    width: 100vw;
+    height: auto;
     padding: 0px;
-    margin: 0vw;
   }
 }
+
+/* ---------------------------------------------------- */
+/* --------------------- ABOUT ------------------------ */
+/* ---------------------------------------------------- */
+#bg {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
 /* ---------------------------------------------------- */
 /* ------------------- EXPERIENCE --------------------- */
 /* ---------------------------------------------------- */
