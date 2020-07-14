@@ -30,9 +30,9 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
-  <body data-aos="zoom-in">
+  <body>
     <a href="index.html">
-      <img class="logo" src="images/logo.png" alt="Ali Huh logo" class="img-responsive">
+      <img class="logo" src="images/logo.png" alt="Ali Huh logo" class="img-fluid">
     </a>
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -44,15 +44,56 @@
     </div>
     <span id="menu" onclick="openNav()">&#9776;</span>
 
+    <div class="bg-container" data-aos="fade-up">
+      <div class="bg">
+        <div class="left-column" id="text">
+          <h3>i'm alison, a korean-american enfp with a knack for unconventional
+          storytelling. </h3>
+          <p style="margin-top: 30px; font-size: 20px;">
 
-    <div id="bg">
-    <p style="text-align: center; margin-top: 30px;">
-      i'm alison, a rising junior at the university of california, berkeley studying english and minoring in computer science.
-    </p>
-  </div>
+          native to orange county and now based in the bay area, i am a
+          third-year undergrad studying english literature and computer science
+          at cal.
+          <br>
+          <br>
+          i'm currently finding ways to engage my skills in
+          verbal and visual communication with my fascination for tech at the <a href="https://funginstitute.berkeley.edu/" target="_blank">fung institute</a>.
+          take a look at my <b><a href="images/Huh_Alison2020.pdf">resume</a></b> for more details.
+          <br>
+          <br>
+          outside of work, you can find me exploring city public transit, binging an
+          animated tv series, making <a href="https://open.spotify.com/user/1241342085?si=0BUgHCebSV-4rfznInDiYg" target="_blank">
+          spotify playlists</a>, sunbathing on memorial glade (pre-covid), or
+          going to yet another concert (also pre-covid).
+        </p>
+        </div>
+
+        <div class="right-column" id="text">
+          <img src="images/me-casual.png" alt="Alison Huh" id="right-pic">
+
+          <div class="sub-heading" style="margin-top: 20px;">PLAYLISTS OF THE MONTH</div>
+            <div class="sub-text">✧ <a href="https://open.spotify.com/playlist/1kuvE3NLYNjE8RGF1ZBmVn?si=3n5dngX5Tk-HFfgfM4Ye4w">
+              here for now 🌻</a></div>
+            <div class="sub-text">✧ <a href="https://open.spotify.com/playlist/6DGcTA8NMfca5TxVc1SRD4?si=YY_akx-0QiylebetptyuOw">
+              JUL 20</a></div>
+              <br>
+          <div class="sub-heading">CURRENTLY READING</div>
+            <div class="sub-text">✧ <a href="https://www.penguinrandomhouse.com/books/605371/minor-feelings-by-cathy-park-hong/">
+              minor feelings: an asian american reckoning</a> — cathy park hong</div>
+
+          <div class="sub-heading" style="margin-top: 20px;">FUN FACTS</div>
+            <div class="sub-text">✧ i almost went to school for flute performance</div>
+            <div class="sub-text">✧ my dream job as a kid was to be a civil engineer lol</div>
+            <div class="sub-text">✧ i used to play the tuba</div>
+            <div class="sub-text">✧ the <a href="https://www.smithsonianmag.com/smart-news/in-defense-of-the-blobfish-why-the-worlds-ugliest-animal-isnt-as-ugly-as-you-think-it-is-6676336/">blobfish</a> is my favorite animal</div>
 
 
-  <footer>
+        </div>
+      </div>
+    </div>
+
+
+  <footer data-aos="fade-up">
     <div id="footer">
       <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -74,9 +115,15 @@
 
     <!-- Menu script -->
     <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+    function openNav() {
+      if (x.matches) {
+        document.getElementById("myNav").style.width = "100%";
+      } else {
+        document.getElementById("myNav").style.width = "25%";
+      }
+    }
+    var x = window.matchMedia("(max-width: 1050px)")
+    x.addListener(myFunction)
 
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";

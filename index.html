@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
   <head>
@@ -30,7 +31,7 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
-  <body data-aos="zoom-in">
+  <body data-aos="fade-up">
     <a href="index.html">
       <img class="logo" src="images/logo.png" alt="Ali Huh logo" class="img-responsive">
     </a>
@@ -44,6 +45,7 @@
     </div>
     <span id="menu" onclick="openNav()">&#9776;</span>
 
+
     <h1 id="iam-carousel"></h1>
     <div id="about" style="margin-bottom: 2%;">
         <img src="images/bw.png" class="img-fluid" alt="ali huh">
@@ -53,6 +55,11 @@
     <div id="desc">
     <p style="margin-top: 20px; margin-bottom: 30p">
       i'm alison, a rising junior at the university of california, berkeley studying english and minoring in computer science.
+      <br>
+      <br>
+      <a href="/about.html">
+        <u>learn more</u>
+      </a>
     </p>
     </div>
 
@@ -77,11 +84,18 @@
       AOS.init({ duration: 1000, once: true });
     </script>
 
-    <!-- Menu script -->
-    <script>
+<!-- Menu script -->
+<script>
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  if (x.matches) {
+    document.getElementById("myNav").style.width = "100%";
+  } else {
+    document.getElementById("myNav").style.width = "25%";
+  }
 }
+var x = window.matchMedia("(max-width: 1050px)")
+x.addListener(myFunction)
+
 
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
