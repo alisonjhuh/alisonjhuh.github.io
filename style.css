@@ -249,12 +249,33 @@ body {
   display: flex;
 }
 
+@media(max-width: 1050px) {
+  .bg {
+    flex-direction: column;
+  }
+}
+
 .left-column {
   max-width: 60%;
 }
 
+@media(max-width: 1050px) {
+  .left-column {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .right-column {
   padding-left: 5em;
+}
+
+@media(max-width: 1050px) {
+  .right-column {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+  }
 }
 
 #right-pic {
