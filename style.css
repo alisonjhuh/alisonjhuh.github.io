@@ -286,54 +286,13 @@ body {
 /* ------------------- EXPERIENCE --------------------- */
 /* ---------------------------------------------------- */
 
-#co {
-  font-weight: 350;
+.fung-gif {
+  height: 20em;
+  margin: 1em;
 }
 
-#group {
-    font-weight: 300;
-    font-size: 50px;
-    letter-spacing: 5px;
-    margin: 3vh 0vh 5vh 5vw;
-}
-
-#title {
-  margin-top: -0.5vh;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-#co-logo.col-sm-2 {
-  text-align: center;
-}
-
-#experience.col-sm-5 {
-  font-size: 18px;
-  letter-spacing: 2px;
-}
-
-#location-exp {
-  font-weight: 300;
-}
-
-@media(max-width: 765px) {
-  #group {
-      text-align: center;
-      padding: 3vw 3vw 3vw 3vw;
-      margin-left: 0px;
-      margin-right: 0px;
+@media(max-width: 1050px) {
+  .fung-gif {
+    width: 100%;
   }
-
-  #co-logo.col-sm-6 {
-    margin-left: -5vw;
-    padding-bottom: 5vh
-    text-align: center;
-  }
-
-  #experience.col-sm-6 {
-    margin: 0px;
-    padding: 0px 3vw 0px 3vw;
-    text-align: center;
-  }
-
 }
