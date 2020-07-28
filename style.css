@@ -222,7 +222,7 @@ body {
   color: #999999;
 }
 
- #index .img-fluid {
+ #index .img-responsive {
   height: 55vh;
   width: auto;
   margin-top: 5vw;
@@ -231,7 +231,7 @@ body {
 }
 
 @media(max-width: 1050px) {
-  #index .img-fluid {
+  #index .img-responsive {
     width: 100vw;
     height: auto;
     padding: 0px;
@@ -352,7 +352,7 @@ body {
   }
 }
 
-#me-casual.img-fluid {
+#me-casual.img-responsive {
  height: 35vh;
  border: solid 1px;
  box-shadow: -10px 10px;
@@ -361,7 +361,7 @@ body {
 }
 
 @media(max-width: 1050px) {
- #me-casual.img-fluid {
+ #me-casual.img-responsive {
    display: none;
  }
 }
