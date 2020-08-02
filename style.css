@@ -364,8 +364,15 @@ h3 {
   display:flex;
 }
 
+@media(max-width:1050px) {
+  #playlist-grid {
+    display:block;
+  }
+}
+
 .playlist {
   margin: 2.5%;
+  margin-bottom: 5%;
 }
 
 .playlist a {
@@ -386,8 +393,8 @@ h3 {
 
 @media(max-width: 1050px) {
   .playlist .img-fluid {
-    margin: 2em;
-    width: 40%;
+    text-align: center;
+    width: 100%;
     height: auto;
   }
 }
