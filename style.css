@@ -289,8 +289,8 @@ h3 {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
-  width: 36%;
-  top: 5em;
+  width: 37%;
+  top: 3em;
   left: 46.5%;
   letter-spacing: 3px;
   z-index: 2;
@@ -321,9 +321,9 @@ h3 {
 
 #gold-ind.gold-div {
   position: static;
-  height: 32vh;
+  height: 34vh;
 	width: 44%;
-  margin-top: -8em;
+  margin-top: -12em;
   margin-left: 43%;
   margin-right: 13%;
   z-index: 1;
@@ -338,7 +338,6 @@ h3 {
 
 #me-casual.img-fluid {
  height: 35vh;
- border: solid 1px;
  box-shadow: -10px 10px;
  margin-top: -18em;
  margin-left: 14%;
@@ -379,15 +378,14 @@ h3 {
 }
 
 .playlist a:hover {
-  color: #cdcdcd;
+  color: #fbaf40;
   text-decoration: none;
 }
 
 .playlist .img-fluid {
   height: 220px;
   width: auto;
-  box-shadow: -10px 10px #efefef;
-  border: solid 1px #efefef;
+  box-shadow: -10px 10px #fbaf40;
 }
 
 @media(max-width: 1050px) {
