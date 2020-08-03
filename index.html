@@ -38,8 +38,8 @@
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href=".">home</a>
-        <a href="#about-me">about</a>
+        <a href="">home</a>
+        <a href="index.html#about-me">about</a>
         <a href="/work.html">work</a>
       </div>
     </div>
@@ -129,6 +129,7 @@
       </div>
     </div>
 
+
     <!-- Calendly badge widget begin -->
       <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
       <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
@@ -151,30 +152,7 @@
       </div>
     </footer>
 
-    <!--AOS -->
-    <script>
-      AOS.init({ duration: 1000, once: true });
-    </script>
 
-<!-- Menu script -->
-<script>
-function openNav() {
-  if (x.matches) {
-    document.getElementById("myNav").style.width = "100%";
-  } else {
-    document.getElementById("myNav").style.width = "25%";
-  }
-}
-var x = window.matchMedia("(max-width: 1050px)")
-x.addListener(myFunction)
-
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-
-  <!-- Carousel - I pray to god this works -->
   <script src="js/js.js"></script>
   </body>
 </html>
