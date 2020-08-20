@@ -314,9 +314,9 @@ h3 {
 
 #gold-ind.gold-div {
   position: static;
-  height: 34vh;
+  height: 30vh;
 	width: 44%;
-  margin-top: -12em;
+  margin-top: -10em;
   margin-left: 43%;
   margin-right: 13%;
   z-index: 1;
@@ -332,8 +332,8 @@ h3 {
 #me-casual.img-fluid {
  height: 35vh;
  box-shadow: -10px 10px;
- margin-top: -18em;
- margin-left: 14%;
+ margin-top: -12em;
+ margin-left: 16%;
 }
 
 @media(max-width: 1050px) {
