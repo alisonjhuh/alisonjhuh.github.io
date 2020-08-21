@@ -180,7 +180,7 @@ h3 {
 @media(max-width: 1050px) {
   #desc {
     font-size:18px;
-    position: relative;
+    position: static;
     width: 100vw;
     left: auto;
     text-align: center;
