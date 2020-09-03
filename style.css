@@ -150,7 +150,7 @@ h3 {
 	text-align: left;
 	position: absolute;
   left: 52%;
-  top: 44%;
+  top: 40%;
   width: 40%;
   margin-bottom: 1vw
   letter-spacing: 3px;
@@ -172,7 +172,7 @@ h3 {
   position: absolute;
   left: 52vw;
   width: 32%;
-  top: 49%;
+  top: 45%;
   letter-spacing: 3px;
   z-index: 2;
 }
@@ -192,7 +192,7 @@ h3 {
  #index img {
    height: 55vh;
    width: auto;
-   margin-top: 5vw;
+   margin-top: 3vw;
    padding-left: 12vw;
    padding-right: 12vw;
 }
@@ -240,11 +240,10 @@ h3 {
 #about {
   position: relative;
   font-family: 'Nunito', sans-serif;
-  color: white;
   font-size: 22px;
   width: 35%;
-  top: 5em;
-  left: 16%;
+  top: 8em;
+  left: 43.5%;
   letter-spacing: 3px;
   z-index: 2;
 }
@@ -253,7 +252,6 @@ h3 {
   #about {
     font-size:18px;
     position: static;
-    color: black;
     width: 100vw;
     margin-top: 2em;
     left: auto;
@@ -263,17 +261,17 @@ h3 {
   }
 }
 
-#black-index.black-div {
-  height: 26vh;
+#gold-index.gold-div {
+  height: 32vh;
 	width: 40%;
-  margin-top: -6%;
-	margin-left: 13%;
+  margin-top: -2em;
+	margin-left: 40%;
   z-index: 1;
   opacity: 0.7;
 }
 
 @media(max-width: 1050px) {
-  #black-index.black-div {
+  #gold-index.gold-div {
     display: none;
   }
 }
@@ -281,21 +279,23 @@ h3 {
 #about-work {
   position: relative;
   font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: white;
   font-size: 22px;
   width: 37%;
-  top: 3.3em;
-  left: 46.5%;
+  top: -1em;
+  left: 48.5%;
   letter-spacing: 3px;
   z-index: 2;
 }
 
 #about-work a {
-  color: black;
+  color: white;
   text-decoration:underline;
 }
 
 #about-work a:hover {
-  color: white;
+  color: #fbaf40;
 }
 
 @media(max-width: 1050px) {
@@ -312,32 +312,32 @@ h3 {
   }
 }
 
-#gold-ind.gold-div {
+#black-ind.black-div {
   position: static;
-  height: 30vh;
+  height: 36vh;
 	width: 44%;
-  margin-top: -10em;
-  margin-left: 43%;
+  margin-top: -16em;
+  margin-left: 45%;
   margin-right: 13%;
   z-index: 1;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media(max-width: 1050px) {
-  #gold-ind.gold-div {
+  #black-ind.black-div {
     display: none;
   }
 }
 
-#me-casual.img-fluid {
- height: 35vh;
+#me-mask.img-fluid {
+ width: 45vh;
  box-shadow: -10px 10px;
- margin-top: -12em;
- margin-left: 16%;
+ margin-top: -70vh;
+ margin-left: 10%;
 }
 
 @media(max-width: 1050px) {
- #me-casual.img-fluid {
+ #me-mask.img-fluid {
    display: none;
  }
 }
