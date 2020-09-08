@@ -183,7 +183,6 @@ h3 {
     position: static;
     width: 100vw;
     left: auto;
-    text-align: center;
     padding-left: 2vh;
     padding-right: 2vh;
   }
@@ -250,12 +249,11 @@ h3 {
 
 @media(max-width: 1050px) {
   #about {
-    font-size:18px;
+    font-size: 18px;
     position: static;
     width: 100vw;
     margin-top: 2em;
     left: auto;
-    text-align: center;
     padding-left: 2vh;
     padding-right: 2vh;
   }
@@ -279,7 +277,6 @@ h3 {
 #about-work {
   position: relative;
   font-family: 'Nunito', sans-serif;
-  font-weight: bold;
   color: white;
   font-size: 22px;
   width: 37%;
@@ -300,15 +297,18 @@ h3 {
 
 @media(max-width: 1050px) {
   #about-work {
-    font-size:18px;
+    font-size: 18px;
     position: static;
     color: black;
     width: 100vw;
     margin-top: 2em;
     left: auto;
-    text-align: center;
     padding-left: 2vh;
     padding-right: 2vh;
+  }
+
+  #about-work a {
+    color: black;
   }
 }
 
@@ -352,6 +352,15 @@ h3 {
   margin-right: 12.5%;
 }
 
+@media(max-width: 1050px) {
+  #currently-listening {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+}
+
 #playlist-grid {
   display:flex;
 }
@@ -375,6 +384,12 @@ h3 {
   text-decoration: none;
 }
 
+@media(max-width:1050px) {
+  .playlist p {
+    display:none;
+  }
+}
+
 .playlist .img-fluid {
   height: 220px;
   width: auto;
@@ -384,8 +399,9 @@ h3 {
 @media(max-width: 1050px) {
   .playlist .img-fluid {
     text-align: center;
-    width: 100%;
+    width: 40%;
     height: auto;
+    display:inline;
   }
 }
 
@@ -398,7 +414,7 @@ h3 {
 
 @media(max-width: 1050px) {
   .playlist-title {
-    margin-left: 2em;
+    display: none;
   }
 }
 
