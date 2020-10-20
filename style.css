@@ -67,25 +67,26 @@ h3 {
 
 #menu {
   font-size:45px;
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
   cursor:pointer;
   float: right;
-  margin-top: 2vh;
-  margin-right: 3vh;
   color: black;
 
 }
 
 @media(max-width: 1050px) {
   #menu {
-    margin-top: 3vw;
-    margin-right: 1vh;
+  top: 0;
+  right: .3em;
   }
 }
 
 .overlay {
   height: 100vh;
   width: 0;
-  position: absolute;
+  position: fixed;
   z-index: 3;
   top: 0;
   right: 0;
@@ -119,9 +120,14 @@ h3 {
 
 .overlay .closebtn {
   position: absolute;
-  top: 1vh;
-  right: 1vh;
+  top: 0em;
+  right: .3em;
   font-size: 60px;
+}
+@media (max-width: 1050px) {
+  .overlay .closebtn {
+    right: .2em;
+  }
 }
 
 /* ---------------------------------------------------- */
