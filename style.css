@@ -61,6 +61,18 @@ h3 {
   font-size: 0.9em;
 }
 
+.heading {
+  font-size: 40px;
+  font-weight: bolder;
+}
+@media (max-width: 1050px) {
+    .heading {
+      font-size: 32px;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+}
+
 /* ---------------------------------------------------- */
 /* -------------------- MENU/NAV ---------------------- */
 /* ---------------------------------------------------- */
@@ -168,7 +180,7 @@ h3 {
 @media(max-width: 1050px) {
   #iam-carousel {
     position: static;
-    font-size: 34px;
+    font-size: 32px;
     text-align: center;
     margin-top: 15%;
     margin-bottom: 5%;
