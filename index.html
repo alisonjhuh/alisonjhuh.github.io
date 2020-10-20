@@ -27,7 +27,7 @@
       <!-- JAVASCRIPT -->
       <script src="js/jquery_typed.js"></script>
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- Global site tag (gtag.js)  - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142319191-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
@@ -43,29 +43,30 @@
   </head>
 
   <body>
-    <a href="">
+    <a href="/">
       <img class="logo" src="images/logo.png" alt="Ali Huh logo" class="img-fluid">
     </a>
+
     <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
       <div class="overlay-content">
-        <a href="">home</a>
-        <a href="index.html#about-me">about</a>
-        <a href="/work.html">work</a>
+        <a href="/">home</a>
+        <a href="/about.html">about</a>
+        <a href="/projects.html">projects</a>
       </div>
     </div>
     <span id="menu" onclick="openNav()">&#9776;</span>
 
 
     <h1 id="iam-carousel" data-aos="fade-left"></h1>
-    <div id="index" style="margin-bottom: 2%;" data-aos="fade-right">
-        <img src="images/bw.png" alt="ali huh">
+    <div id="index" data-aos="fade-right">
+        <img src="images/egg.png" alt="ali huh">
     </div>
-    <div id="index-div" class="gold-div" data-aos="fade-left"></div>
 
     <div id="desc" data-aos="fade-left">
     <p style="margin-top: 20px; margin-bottom: 30p">
-      i'm alison, a korean-american enfp with a knack for unconventional storytelling.
+      i'm alison, a korean-american enfp with a knack for unconventional storytelling,
+      studying english and computer science at uc berkeley.
     </p>
     </div>
 
@@ -73,32 +74,22 @@
       <a class="fa fa-arrow-down fa-2x" href="#about-me"></a>
     </div>
 
-    <div id="about-me" data-aos="fade-right">
+
+    <div id="about-me" style="text-align: center;" data-aos="fade-up">
       <div id="about">
-        <p style="margin-top: 20px; margin-bottom: 30px;">
-          originally from orange county and based in the bay, i'm a third-year
-          undergrad studying english literature and computer science at cal.
-        </p>
+        <h1>what i've been up to recently</h1>
       </div>
-      <div id="gold-index" class="gold-div"></div>
-    </div>
-
-    <div data-aos="fade-left">
-      <div id="about-work">
-        <p style="margin-top: 20px; margin-bottom: 30px;">
-          sharing the stories of budding innovators as a director at
-          <b><a href="https://calhacks.io/" target="_blank">cal hacks</a></b> and digital marketing
-          intern at the <b><a href="https://funginstitute.berkeley.edu/" target="_blank">fung institute</a></b>.
-          <br><br>
-          check out my <b><a href="images/Huh_Alison2020.pdf">resume</a></b> for
-          more details.
-        </p>
+      <div id="about-desc">
+        conservation + tech fellow @ <a href="fungfellows.berkeley.edu">the fung fellowship</a>;
+        web ta @ <a href="calhacks.io/cubstart">cubstart: introduction to building apps</a>;
+        <br>
+        marketing @ <a href="calhacks.io">cal hacks</a>;
+        digital marketing intern @ <a href="funginstitute.berkeley.edu"> the fung institute</a>
+        <br>
+        <br>
+        <br>
+        learn more <a href="/about.html">about me</a>, check out my <a href="/projects.html">latest projects</a> or look over my <a href="/images/Huh_Alison2020.pdf">resume</a> instead!
       </div>
-      <div id="black-ind" class="black-div"></div>
-    </div>
-
-    <div>
-      <img id="me-mask" class="img-fluid" src="images/me-mask.jpg" alt="Ali Huh">
     </div>
 
     <div class="arrow bounce">
@@ -123,15 +114,15 @@
           </a>
         </div>
         <div class="playlist">
-          <a href="https://open.spotify.com/playlist/365cxoq5QVjnSNuUX6ksi6?si=REUVJdowRfeiqQd2nJswKA" target="_blank">
-            <img class="img-fluid" src="images/AUG20.png" alt="August 2020 playlist cover">
-            <h3 class="playlist-title"> AUG 20 </h3>
-            <p style="text-align:center;"> monthly playlist: august 2020 </p>
+          <a href="https://open.spotify.com/playlist/6n48m7DNGMXEEo8rjisZD9?si=ZARt_AzKSnmQWaeQA9Bjiw" target="_blank">
+            <img class="img-fluid" src="images/OCT20.png" alt="October 2020 playlist cover">
+            <h3 class="playlist-title"> OCT 20 </h3>
+            <p style="text-align:center;"> monthly playlist: october 2020 </p>
           </a>
         </div>
         <div class="playlist">
           <a href="https://open.spotify.com/playlist/1G3tDfUIkUExAWY2eWnYwp?si=eRebfvDLR2-DEK5pHJDYtw" target="_blank">
-            <img class="img-fluid" src="images/kpop.png" alt="August 2020 playlist cover">
+            <img class="img-fluid" src="images/kpop.png" alt="KPOP playlist cover">
             <h3 class="playlist-title"> 케이팝 </h3>
             <p style="text-align:center;"> kpop i've (re)discovered during quarantine</p>
           </a>
@@ -141,9 +132,9 @@
 
 
     <!-- Calendly badge widget begin -->
-      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-      <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/ali-j-huh/30min?primary_color=fbaf40', text: "let's connect!", color: '#fbaf40', textColor: '#ffffff', branding: false });</script>
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/ali-j-huh/30-min', text: 'let\'s connect!', color: '#fbaf40', textColor: '#ffffff', branding: false });</script>
     <!-- Calendly badge widget end -->
 
 
@@ -161,7 +152,6 @@
           <p>made with ♡ by ali huh | 2020</p>
       </div>
     </footer>
-
 
   <script src="js/js.js"></script>
   </body>

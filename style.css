@@ -7,6 +7,7 @@ html {
 
 body {
   width: 100%;
+  justify-content: left;
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
@@ -71,6 +72,7 @@ h3 {
   margin-top: 2vh;
   margin-right: 3vh;
   color: black;
+
 }
 
 @media(max-width: 1050px) {
@@ -120,7 +122,7 @@ h3 {
   top: 1vh;
   right: 1vh;
   font-size: 60px;
-}
+} */
 
 /* ---------------------------------------------------- */
 /* --------------------- INDEX ------------------------ */
@@ -145,13 +147,13 @@ h3 {
 
 #iam-carousel {
   font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  font-size: 34px;
+  font-weight: 900;
+  font-size: 36px;
 	text-align: left;
 	position: absolute;
-  left: 52%;
+  left: 50%;
   top: 40%;
-  width: 40%;
+  width: 50%;
   margin-bottom: 1vw
   letter-spacing: 3px;
   z-index: 2;
@@ -170,8 +172,8 @@ h3 {
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
   position: absolute;
-  left: 52vw;
-  width: 32%;
+  left: 50%;
+  width: 36%;
   top: 45%;
   letter-spacing: 3px;
   z-index: 2;
@@ -189,11 +191,10 @@ h3 {
 }
 
  #index img {
-   height: 55vh;
-   width: auto;
-   margin-top: 3vw;
-   padding-left: 12vw;
-   padding-right: 12vw;
+   width: 45vh;
+   margin-top: 2%;
+   margin-left: 15%;
+   margin-bottom: 2%;
 }
 
 @media(max-width: 1050px) {
@@ -204,9 +205,12 @@ h3 {
   }
 }
 
+.hovertext {
+
+}
+
 .arrow {
   text-align: center;
-  margin-top: 5%;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -240,16 +244,14 @@ h3 {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
-  width: 35%;
-  top: 8em;
-  left: 43.5%;
+  padding-top: 30vh;
   letter-spacing: 3px;
   z-index: 2;
 }
 
 @media(max-width: 1050px) {
   #about {
-    font-size: 18px;
+    font-size: 20px;
     position: static;
     width: 100vw;
     margin-top: 2em;
@@ -259,87 +261,14 @@ h3 {
   }
 }
 
-#gold-index.gold-div {
-  height: 32vh;
-	width: 40%;
-  margin-top: -2em;
-	margin-left: 40%;
-  z-index: 1;
-  opacity: 0.7;
-}
-
-@media(max-width: 1050px) {
-  #gold-index.gold-div {
-    display: none;
-  }
-}
-
-#about-work {
+#about-desc {
   position: relative;
   font-family: 'Nunito', sans-serif;
-  color: white;
-  font-size: 22px;
-  width: 37%;
-  top: -1em;
-  left: 48.5%;
+  font-size: 18px;
+  padding-top: 5vh;
+  padding-bottom: 30vh;
   letter-spacing: 3px;
   z-index: 2;
-}
-
-#about-work a {
-  color: white;
-  text-decoration:underline;
-}
-
-#about-work a:hover {
-  color: #fbaf40;
-}
-
-@media(max-width: 1050px) {
-  #about-work {
-    font-size: 18px;
-    position: static;
-    color: black;
-    width: 100vw;
-    margin-top: 2em;
-    left: auto;
-    padding-left: 2vh;
-    padding-right: 2vh;
-  }
-
-  #about-work a {
-    color: black;
-  }
-}
-
-#black-ind.black-div {
-  position: static;
-  height: 36vh;
-	width: 44%;
-  margin-top: -16em;
-  margin-left: 45%;
-  margin-right: 13%;
-  z-index: 1;
-  opacity: 0.8;
-}
-
-@media(max-width: 1050px) {
-  #black-ind.black-div {
-    display: none;
-  }
-}
-
-#me-mask.img-fluid {
- width: 45vh;
- box-shadow: -10px 10px;
- margin-top: -70vh;
- margin-left: 10%;
-}
-
-@media(max-width: 1050px) {
- #me-mask.img-fluid {
-   display: none;
- }
 }
 
 /* ---------------------------------------------------- */
@@ -348,8 +277,7 @@ h3 {
 
 #currently-listening {
   margin-top: 9em;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  text-align: center;
 }
 
 @media(max-width: 1050px) {
@@ -455,16 +383,5 @@ h3 {
 }
 
 /* ---------------------------------------------------- */
-/* ---------------- FUNG EXPERIENCE ------------------- */
+/* ---------------- HIGHLIGHTER ------------------- */
 /* ---------------------------------------------------- */
-
-.fung-gif {
-  height: 20em;
-  margin: 1em;
-}
-
-@media(max-width: 1050px) {
-  .fung-gif {
-    width: 100%;
-  }
-}
