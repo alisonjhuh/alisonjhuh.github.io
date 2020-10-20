@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	// typed
 	var aboutTyped = new Typed('#iam-carousel', {
-		strings: ["hi there!", "i'm alison :-)",
+		strings: ["hi there!", "i'm alison huh :-)",
 		"i'm a junior @ uc berkeley ʕᵕᴥᵕʔ",
 		"i'm a digital marketer", "i love eggs!!",
 		"i have 103 spotify playlists ♫", "and i prefer public transit!"],
