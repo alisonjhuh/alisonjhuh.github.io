@@ -67,13 +67,12 @@ h3 {
 
 #menu {
   font-size:45px;
-  position: fixed;
+  position: absolute;
   top: 0.5em;
   right: 0.5em;
-  cursor:pointer;
   float: right;
   color: black;
-
+  cursor:pointer;
 }
 
 @media(max-width: 1050px) {
@@ -126,7 +125,9 @@ h3 {
 }
 @media (max-width: 1050px) {
   .overlay .closebtn {
-    right: .2em;
+    margin-top: -.3em;
+    right: .25em;
+    font-size: 50px;
   }
 }
 
