@@ -306,10 +306,10 @@ h3 {
 }
 
 #walk {
-  width:32%;
+  width: 25%;
   position: absolute;
-  left: 50%;
-  top: 0px;
+  left: 55%;
+  top: 24%;
   border-radius: 20px;
   box-shadow: 15px 15px black;
 }
@@ -322,17 +322,34 @@ h3 {
   font-size: 18px;
 }
 
+#current {
+  width: 80%;
+  margin-top: 8em;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+#current a {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: black;
+}
+
+#current a:hover {
+  color: #fbaf40;
+}
+
 #currently-about {
-  width: 46%;
-  position: relative;
-  left: 40%;
-  top: -26.5em;
+  width: 40%;
+  position: absolute;
+  left: 46%;
+  top: 94%;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 
 .about-img {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
   width: 32%;
   border-radius: 15px;
@@ -365,7 +382,11 @@ h3 {
     padding-left: 3em;
     padding-right: 3em;
   }
-
+  #current {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
   #currently-about {
     width: 100%;
     position: static;
@@ -466,7 +487,7 @@ h3 {
   position: relative;
   text-align: center;
   padding-top: 5vw;
-  margin-top: 2vw;
+  margin-top: 2em;
   margin-bottom: 2vw;
   font-size: large;
   color: #cdcdcd
