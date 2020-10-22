@@ -56,6 +56,10 @@ h3 {
     padding-left: 1em;
     padding-right: 1em;
   }
+  .heading-2 {
+    font-size: 28px;
+    margin-top: 3em;
+  }
 }
 
 /* ---------------------------------------------------- */
@@ -347,21 +351,33 @@ h3 {
   }
 
   #walk {
-    width: 100vw;
-    padding: 2em 5em 2em 5em;
-    margin-top: 0;
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
     position: static;
+    box-shadow: none;
   }
 
   #full-about-desc {
     position: static;
     width: 100%;
-    padding-left: 4em;
-    padding-right: 4em;
+    font-size: 16px;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
-  .col-sm {
-    margin-bottom: 5em;
+  #currently-about {
+    width: 100%;
+    position: static;
+    font-size: 16px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .about-img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 75%;
+    box-shadow: none;
   }
 }
 
