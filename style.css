@@ -43,7 +43,8 @@ h3 {
 
 .heading-2 {
   font-size: 32px;
-  margin-top: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 @media(max-width: 1050px) {
@@ -297,12 +298,12 @@ h3 {
 }
 
 #full-about a {
-  color: black;
+  color: #fbaf40;
   text-decoration: underline;
 }
 
 #full-about a:hover {
-  color: #fbaf40;
+  color: black;
 }
 
 #walk {
@@ -324,39 +325,50 @@ h3 {
 
 #current {
   width: 80%;
-  margin-top: 8em;
+  margin-top: 6%;
   margin-left: 15%;
-  margin-bottom: 2%;
+  margin-bottom: 5em;
 }
 
 #current a {
   font-weight: bolder;
   text-decoration: underline;
-  color: black;
+  color: #fbaf40;
 }
 
 #current a:hover {
-  color: #fbaf40;
+  color: black;
 }
 
 #currently-about {
   width: 40%;
-  position: absolute;
-  left: 46%;
-  top: 94%;
+  position: relative;
+  left: 40%;
+  top: 2em;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 
+#recently {
+  position: relative;
+  width: 40%;
+  left: 40%;
+  top: 1.5em;
+}
+
 .about-img {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  width: 32%;
+  position: absolute;
+  margin-top: -2.5em;
+  width: 20%;
   border-radius: 15px;
   box-shadow: -15px 15px #fbaf40;
 }
 
 @media (max-width: 1050px) {
+  #current {
+    width: 100%;
+
+  }
   #full-about {
     width: 100%;
     margin-left: 0px;
@@ -383,20 +395,29 @@ h3 {
     padding-left: 3em;
     padding-right: 3em;
   }
-  #current {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-  }
+
   #currently-about {
-    width: 100%;
     position: static;
+    width: 75%;
     font-size: 16px;
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  .about-img {
+    text-align: center;
+    padding: 0;
     margin-top: 1em;
+  }
+
+  #recently {
+    position: static;
+    text-align: center;
+    left: 0px;
+    margin-left: 0px;
+    width: 75%;
+    top: 1.5em;
+  }
+
+  .about-img {
+    position: static;
+    margin-top: 1em;
+    text-align: center;
     margin-bottom: 1em;
     width: 75%;
     box-shadow: none;
