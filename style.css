@@ -307,12 +307,10 @@ h3 {
 }
 
 #walk {
-  width: 25%;
+  width: 30%;
   position: absolute;
   left: 55%;
-  top: 30%;
-  border-radius: 20px;
-  box-shadow: 15px 15px black;
+  top: 32%;
 }
 
 #full-about-desc {
@@ -385,7 +383,6 @@ h3 {
     margin-top: 2em;
     margin-bottom: 2em;
     position: static;
-    box-shadow: none;
   }
 
   #full-about-desc {
@@ -396,31 +393,36 @@ h3 {
     padding-right: 3em;
   }
 
-  #currently-about {
-    position: static;
-    width: 75%;
-    font-size: 16px;
+  #current {
+    width: 100%;
+    margin: 0;
     text-align: center;
-    padding: 0;
-    margin-top: 1em;
+  }
+
+  .about-img {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    width: 75%;
+    box-shadow: none;
+    position: static;
   }
 
   #recently {
     position: static;
-    text-align: center;
     left: 0px;
     margin-left: 0px;
-    width: 75%;
+    width: 100%;
     top: 1.5em;
   }
 
-  .about-img {
+  #currently-about {
     position: static;
-    margin-top: 1em;
+    width: 100%;
+    font-size: 16px;
     text-align: center;
-    margin-bottom: 1em;
-    width: 75%;
-    box-shadow: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
   }
 }
 
