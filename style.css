@@ -51,7 +51,7 @@ h3 {
   background-color: #F7E3AE;
   height: 100%;
   padding: 10px;
-  width: 70%;
+  width: 64%;
   position: fixed;
   top: 0;
   right: 0;
@@ -305,10 +305,10 @@ h3 {
 }
 
 #walk {
-  width: 25%;
+  width: 30%;
   position: absolute;
   left: 55%;
-  top: 20%;
+  top: 25%;
 }
 
 #full-about-desc {
@@ -340,8 +340,8 @@ h3 {
   width: 40%;
   position: relative;
   left: 40%;
-  margin-top: 8em;
-  margin-bottom: 10em;
+  margin-top: 5em;
+  margin-bottom: 2em;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
@@ -350,13 +350,13 @@ h3 {
   position: relative;
   width: 40%;
   left: 40%;
-  top: 3em;
+  top: 2em;
 }
 
 .about-img {
   position: absolute;
-  margin-top: -2.5em;
-  width: 25%;
+  width: 26%;
+  margin-top: -1em;
   border-radius: 15px;
   box-shadow: -15px 15px #fbaf40;
 }
@@ -508,19 +508,19 @@ h3 {
 #projects-title {
   position: fixed;
   width: 25%;
-  margin-left: 5%;
-  margin-top: 12%;
+  margin-left: 8%;
+  margin-top: 10%;
 }
 
 #projects-title .heading {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .projects {
   position: relative;
   width: 40%;
-  left: 45%;
-  margin-top: 5em;
+  left: 50%;
+  margin-top: 3em;
 }
 
 .project-img {
@@ -535,7 +535,7 @@ h3 {
   text-decoration: underline;
   font-weight: bolder;
   color: black;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .project-name a {
@@ -547,14 +547,14 @@ h3 {
 }
 
 .project-desc {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 1em;
   margin-left: .75em;
 }
 
 #project-footer {
   position: fixed;
-  width: 30%;
+  width: 36%;
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2vw;
