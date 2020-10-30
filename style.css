@@ -49,14 +49,6 @@ h3 {
 
 .gold-div {
   background-color: #F7E3AE;
-  height: 100%;
-  padding: 10px;
-  width: 64%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: -999;
-  box-shadow: -5px 0px 5px 0px #BFBFBF;
 }
 
 @media(max-width: 1050px) {
@@ -505,21 +497,32 @@ h3 {
 /* -------------------- PROJECTS ---------------------- */
 /* ---------------------------------------------------- */
 
-#projects-title {
+#projects {
   position: fixed;
   width: 25%;
   margin-left: 8%;
   margin-top: 10%;
 }
 
-#projects-title .heading {
+#project-div.gold-div {
+  height: 100%;
+  padding: 10px;
+  width: 64%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -999;
+  box-shadow: -5px 0px 5px 0px #BFBFBF;
+}
+
+#projects .heading {
   font-size: 36px;
 }
 
-.projects {
+.project-container {
   position: relative;
   width: 40%;
-  left: 50%;
+  left: 48%;
   margin-top: 3em;
 }
 
@@ -567,7 +570,7 @@ h3 {
     display: none;
   }
 
-  #projects-title {
+  #projects {
     position: static;
     text-align:center;
     width: 100%;
@@ -575,11 +578,11 @@ h3 {
     margin-top: 10%;
   }
 
-  #projects-title .heading {
+  #projects .heading {
     font-size: 32px;
   }
 
-  .projects {
+  .project-container {
     text-align: center;
     position: static;
     width: 100%;
@@ -588,11 +591,11 @@ h3 {
 
   .project-img {
     margin-top: 3em;
-    width: 80%;
+    width:80%;
   }
 
   .project-name {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .project-name a {
@@ -612,6 +615,35 @@ h3 {
   #project-footer {
     width: 100%;
   }
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- HACK:NOW ---------------------- */
+/* ---------------------------------------------------- */
+
+#hacknow-div.gold-div {
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  z-index: -999;
+  box-shadow: -5px 0px 5px 0px #BFBFBF;
+}
+
+.project-title {
+  font-weight: bolder;
+  font-size: 48px;
+  margin-left: 15%;
+}
+
+.project-main-img {
+  width: 40%;
+  position: relative;
+  top: 5em;
+  left: 50%;
+  border-radius: 16px;
+
 }
 
 /* ---------------------------------------------------- */

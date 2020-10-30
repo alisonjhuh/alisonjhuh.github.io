@@ -28,6 +28,16 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
+      <!-- Global site tag (gtag.js)  - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142319191-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142319191-1');
+      </script>
+
       <!--AOS Library -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -47,17 +57,17 @@
     </div>
     <span id="menu" onclick="openNav()">&#9776;</span>
 
-    <div id="projects-title" data-aos="fade-right">
+    <div id="projects" data-aos="fade-right">
       <h1 class="heading">
         what i've been working on
       </h1>
       <p> psss. more content is on the way!</p>
     </div>
-    <div class="gold-div" data-aos="fade-left"></div>
-    <div class="projects" data-aos="fade-left">
-        <a href="/hacknow.html"><img class="project-img" src="/images/hacknow.png"></a>
+    <div class="gold-div" id="project-div" data-aos="fade-left"></div>
+    <div class="project-container" data-aos="fade-left">
+        <a href="/hacknow.html"><img class="project-img" src="/images/hacknow.png" alt="hack:now presented by cal hacks"></a>
         <h2 class="project-name">
-          <a  href="/hacknow.html">hack:now marketing + website ↗</a>
+          <a  href="/hacknow.html">hack:now ↗</a>
         </h2>
         <p class="project-desc">
           <b> marketing + copywriting </b>- a 36-hour, global online hackathon tackling challenges faced due to the COVID-19 pandemic.
