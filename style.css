@@ -658,11 +658,11 @@ h3 {
   font-weight: bold;
 }
 
-.project-org-link a {
+a.project-org-link {
   color: #fbaf40;
 }
 
-.project-org-link a:hover {
+a:hover.project-org-link {
   color: black;
   text-decoration: underline;
 }
