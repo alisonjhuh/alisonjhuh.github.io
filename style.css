@@ -27,7 +27,7 @@ h3 {
 }
 
 .container {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .logo {
@@ -39,9 +39,11 @@ h3 {
 .heading {
   font-size: 36px;
   font-weight:600;
+  font-family: 'Montserrat';
 }
 
 .heading-2 {
+  font-family: 'Nunito';
   font-size: 32px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -550,6 +552,7 @@ h3 {
 }
 
 .project-desc {
+  font-family: 'Nunito';
   font-size: 20px;
   margin-top: 1em;
   margin-left: .75em;
@@ -565,8 +568,12 @@ h3 {
   color: #cdcdcd
 }
 
+.collab-role {
+  font-style: italic;
+}
+
 @media(max-width: 1050px) {
-  .gold-div {
+  #project-div.gold-div {
     display: none;
   }
 
@@ -626,25 +633,31 @@ h3 {
   width: 100%;
   padding: 10px;
   margin-top: 2em;
-  margin-bottom: 2em;
   z-index: -999;
   box-shadow: -5px 0px 5px 0px #BFBFBF;
 }
 
 .project-title {
-  font-weight: bolder;
+  font-family: 'Montserrat';
+  font-weight: 500;
   font-size: 48px;
   margin-left: 15%;
 }
 
 .project-main-img {
-  width: 40%;
-  position: relative;
-  top: 5em;
-  left: 50%;
+  width: 100%;
   border-radius: 16px;
-
 }
+
+.col-sm {
+  margin-bottom: 3em;
+}
+
+.org, .roles, .timeline, .description, .collab {
+  font-family: 'Nunito';
+  font-weight: bold;
+}
+
 
 /* ---------------------------------------------------- */
 /* --------------------- FOOTER ----------------------- */
