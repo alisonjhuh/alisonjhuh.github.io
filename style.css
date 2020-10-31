@@ -526,6 +526,7 @@ h3 {
   width: 40%;
   left: 48%;
   margin-top: 3em;
+  padding-bottom: 1em;
 }
 
 .project-img {
@@ -656,6 +657,7 @@ h3 {
 .org, .roles, .timeline, .description, .collab {
   font-family: 'Nunito';
   font-weight: bold;
+  font-size: 18px;
 }
 
 a.project-org-link {
