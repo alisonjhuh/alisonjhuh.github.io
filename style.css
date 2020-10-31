@@ -648,6 +648,12 @@ h3 {
 .project-main-img {
   width: 100%;
   border-radius: 16px;
+  margin-bottom: 5em;
+}
+
+.half-img {
+  width: 80%;
+  margin-left: 20%;
 }
 
 .col-sm {
@@ -668,6 +674,7 @@ a:hover.project-org-link {
   color: black;
   text-decoration: underline;
 }
+
 
 
 /* ---------------------------------------------------- */
