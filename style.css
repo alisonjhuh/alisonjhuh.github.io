@@ -690,7 +690,7 @@ a:hover.project-org-link {
 /* ---------------------------------------------------- */
 /* -------------------- HACK:NOW ---------------------- */
 /* ---------------------------------------------------- */
-#hacknow-div.gold-div {
+#title-div.gold-div {
   height: 10%;
   width: 100%;
   padding: 10px;
@@ -701,14 +701,14 @@ a:hover.project-org-link {
 }
 
 @media(max-width: 1050px) {
-  #hacknow-div.gold-div {
-    height: 6.5%;
+  #title-div.gold-div {
+    height: 7%;
   }
+}
 
 /* ---------------------------------------------------- */
 /* -------------- BFR WEBSITE REDESIGN ---------------- */
 /* ---------------------------------------------------- */
-
 #bfr-div.gold-div {
   height: 10%;
   width: 100%;
@@ -720,9 +720,10 @@ a:hover.project-org-link {
 }
 
 @media(max-width: 1050px) {
-  #bfr-div.gold-div {
-    height: 12%;
+  #bfr-di.gold-div {
+    height: 15%;
   }
+}
 
 /* ---------------------------------------------------- */
 /* --------------------- FOOTER ----------------------- */
