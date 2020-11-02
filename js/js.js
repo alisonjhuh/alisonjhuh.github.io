@@ -6,9 +6,9 @@ $(document).ready(function() {
 		"i'm a junior @ uc berkeley",
 		"i built this site myself!!",
 		"i'm a digital marketer",
-		"i'm a (former) flautist"
+		"i'm a (former) flautist",
 		"i'm a playlist afficionado",
-		"i love quierky earrings"" 
+		"i love quierky earrings",
 		"and i prefer public transit!"],
 		typeSpeed: 60,
 		backSpeed: 40,
