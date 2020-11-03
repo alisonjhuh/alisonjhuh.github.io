@@ -33,7 +33,7 @@ function openNav() {
   }
 }
 var x = window.matchMedia("(max-width: 1050px)")
-x.addListener(myFunction);
+x.addListener(openNav);
 
 
 function closeNav() {
