@@ -287,14 +287,9 @@ h3 {
 /* ---------------------------------------------------- */
 
 #full-about {
-  width: 80%;
-  margin-top: 3%;
-  margin-left: 15%;
+  width: 70%;
+  margin-top: 2%;
   margin-bottom: 2%;
-}
-
-#full-about h1 {
-  width: 50%;
 }
 
 #full-about a {
@@ -307,22 +302,17 @@ h3 {
 }
 
 #walk {
-  width: 30%;
-  position: absolute;
-  left: 55%;
-  top: 25%;
+  width: 100%;
 }
 
 #full-about-desc {
-  position: relative;
-  width: 40%;
   top: 1em;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 
 #current {
-  width: 80%;
+  width: 70%;
   margin-top: 6%;
   margin-left: 15%;
   margin-bottom: 5em;
@@ -339,26 +329,15 @@ h3 {
 }
 
 #currently-about {
-  width: 40%;
-  position: relative;
-  left: 40%;
-  margin-top: 5em;
+  margin-top: 2em;
   margin-bottom: 2em;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 
-#recently {
-  position: relative;
-  width: 40%;
-  left: 40%;
-  top: 2em;
-}
-
 .about-img {
-  position: absolute;
-  width: 26%;
-  margin-top: -1em;
+  width: 80%;
+  margin-top: -1.5em;
   border-radius: 15px;
   box-shadow: -15px 15px #fbaf40;
 }
@@ -366,8 +345,8 @@ h3 {
 @media (max-width: 1050px) {
   #current {
     width: 100%;
-
   }
+
   #full-about {
     width: 100%;
     margin-left: 0px;
