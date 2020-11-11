@@ -287,18 +287,18 @@ h3 {
 /* ---------------------------------------------------- */
 
 #full-about {
-  width: 70%;
+  width: 74%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 #full-about a {
-  color: #fbaf40;
+  color: black;
   text-decoration: underline;
 }
 
 #full-about a:hover {
-  color: black;
+  color: #fbaf40;
 }
 
 #walk {
@@ -306,7 +306,8 @@ h3 {
 }
 
 #full-about-desc {
-  top: 1em;
+  margin-top: 1em;
+  width: 90%;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
@@ -370,8 +371,6 @@ h3 {
     position: static;
     width: 100%;
     font-size: 16px;
-    padding-left: 3em;
-    padding-right: 3em;
   }
 
   #current {
@@ -702,6 +701,13 @@ a:hover.project-org-link {
   #bfr-di.gold-div {
     height: 15%;
   }
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- RESUME PAGE -------------------- */
+/* ---------------------------------------------------- */
+#resume.container-fluid {
+  width: 70%;
 }
 
 /* ---------------------------------------------------- */
