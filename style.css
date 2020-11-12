@@ -434,10 +434,6 @@ h3 {
   }
 }
 
-.playlist {
-  margin: 2.5%;
-}
-
 .playlist a {
   color: black;
 }
@@ -454,8 +450,7 @@ h3 {
 }
 
 .playlist .img-fluid {
-  height: 220px;
-  width: auto;
+  width: 65%;
   box-shadow: -10px 10px #fbaf40;
 }
 
@@ -470,9 +465,7 @@ h3 {
 }
 
 .playlist-title {
-  text-align: center;
   margin-top: 1em;
-  width: 220px;
   font-size: 24px;
 }
 
@@ -715,6 +708,40 @@ a:hover.project-org-link {
 /* ---------------------------------------------------- */
 #resume.container-fluid {
   width: 70%;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------ SPOTIFY PAGE -------------------- */
+/* ---------------------------------------------------- */
+#spotify-container {
+  width: 70%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#spotify-carousel {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 1vw
+  z-index: 2;
+}
+
+#animated-me {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#spotify-container-2 {
+  width: 80%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#what-i-bring {
+  
 }
 
 /* ---------------------------------------------------- */
