@@ -736,12 +736,24 @@ a:hover.project-org-link {
 
 #spotify-container-2 {
   width: 80%;
-  margin-top: 5em;
+  margin-top: 10em;
   margin-bottom: 5em;
 }
+#users-first {
+  margin-bottom 5em;
+}
+#writers-block {
+  margin-bottom: 5em;
+}
+#why-mce {
+  width: 95%;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  font-size: 18px;
+}
 
-#what-i-bring {
-  
+#community {
+  font-size: 18px;
 }
 
 /* ---------------------------------------------------- */
