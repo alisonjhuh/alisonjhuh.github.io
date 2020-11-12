@@ -713,6 +713,10 @@ a:hover.project-org-link {
 /* ---------------------------------------------------- */
 /* ------------------ SPOTIFY PAGE -------------------- */
 /* ---------------------------------------------------- */
+#spotify-note {
+  width: 90%;
+  margin-top: 2em;
+}
 #spotify-container {
   width: 70%;
   margin-top: 5em;
@@ -724,7 +728,7 @@ a:hover.project-org-link {
   font-weight: 900;
   font-size: 36px;
   text-align: left;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1vw
   z-index: 2;
 }
@@ -741,6 +745,13 @@ a:hover.project-org-link {
 }
 #users-first {
   margin-bottom 5em;
+}
+#users-first a {
+  color: black;
+  text-decoration: underline;
+}
+#users-first a:hover{
+  color:#fbaf40;
 }
 #writers-block {
   margin-bottom: 5em;
