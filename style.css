@@ -714,8 +714,9 @@ a:hover.project-org-link {
 /* ------------------ SPOTIFY PAGE -------------------- */
 /* ---------------------------------------------------- */
 #spotify-note {
-  width: 90%;
-  margin-top: 2em;
+  position:absolute;
+  bottom:1%;
+  left: 1%;
 }
 #spotify-container {
   width: 70%;
@@ -740,7 +741,12 @@ a:hover.project-org-link {
 
 #spotify-container-2 {
   width: 80%;
-  margin-top: 10em;
+  padding-top: 15em;
+  margin-bottom: 5em;
+}
+#spotify-container-3 {
+  width: 80%;
+  margin-top: 5em;
   margin-bottom: 5em;
 }
 #users-first {
@@ -762,10 +768,55 @@ a:hover.project-org-link {
   margin-bottom: 5em;
   font-size: 18px;
 }
-
 #community {
   font-size: 18px;
 }
+.collab-play {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.synesthesia {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+@media(max-width: 1050px) {
+  #spotify-note {
+    display:none;
+  }
+  #spotify-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  #spotify-carousel {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 3em;
+  }
+  #animated-me {
+    width: 80%;
+    margin-bottom: 0em;
+  }
+  #spotify-container-2 {
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  #spotify-heading {
+    font-size: 24px;
+  }
+  #why-mce {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 16px;
+  }
+}
+
 
 /* ---------------------------------------------------- */
 /* --------------------- FOOTER ----------------------- */
