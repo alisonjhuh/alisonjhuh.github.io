@@ -10,7 +10,7 @@
 
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎶</text></svg>">
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="spotify.css">
 
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -25,8 +25,8 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
       <!-- FONTS -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
       <!-- JAVASCRIPT -->
       <script src="js/jquery_typed.js"></script>
@@ -50,27 +50,55 @@
     </div>
     <span id="menu" onclick="openNav()">&#9776;</span>
 
+    <img id="spotify-bg" src="/images/spotify-me.png">
     <div id="spotify-container" class="container-fluid" data-aos="fade-up">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm-6">
+          <h1 id="spotify-hi"></h1>
           <h1 id="spotify-carousel"></h1>
         </div>
-        <div class="col-sm-5">
-          <img id="animated-me" src="/images/head.png">
-        </div>
+      </div>
     </div>
-  </div>
-  <p id="spotify-note">p.s. this is a special page on my site made just for you!
-    <br>just in case you click away, be sure to keep this link handy to get back:
-    <br><b>alisonhuh.com/spotify-mce</b>
-  </p>
-
 
   <div class="arrow bounce">
-    <a class="fa fa-arrow-down fa-2x" href="#users-first"></a>
+    <a class="fa fa-arrow-down fa-2x" href="#spotify-container-2"></a>
   </div>
 
   <div id="spotify-container-2" class="container-fluid">
+    <div class="row" id="community">
+      <div class="col-sm" data-aos="fade-right">
+        <h1 id="spotify-heading" class="heading" data-aos="fade-right">
+          building communities,
+          one playlist at a time.
+        </h1>
+        <p id="community" data-aos="fade-right">
+          whether it be for a global online hackathon of 2,000+ participants
+          or a small class of 39 students, collaborative playlists have time-and-time again
+          been my favorite way to build communities online.
+          <br>
+          <br>especially with school, work, and social life all going virtual, creating playlists
+          like the two shown here have helped me — and still do to this day — connect with people i couldn't
+          actually meet in person.
+          <br>
+          <br>we all know music gives us an opportunity to share our unapologetic selves.
+          these playlists just made it easier and to package our online communities
+          in a fun, shareable medium.
+          <br><br>also, can't forget all the music i discovered along the way! :-)
+        </p>
+      </div>
+      <div class="col-sm" data-aos="fade-left" style="text-align:center;">
+        <a href="https://open.spotify.com/playlist/682je6HbLDWjPwqr4lDPoQ?si=RaZpdMc5RIulQYcKTjijdw" target="_blank" style="color:#333333;">
+          <img class="collab-play" src="/images/hacknow-playlist.png">
+        </a>
+        <a href="https://open.spotify.com/playlist/1Nyy3pQVJIq3vWyTpceoLD?si=LauD1Hu5Q6y2LMJtpd2rMQ" target="_blank" style="color:#333333;">
+          <img class="collab-play" src="/images/cubstart-playlist.png">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="spotify-container-3" class="container-fluid">
       <div class="row" id="users-first">
         <div class="col-sm" data-aos="fade-right">
           <h1 id="spotify-heading" class="heading" data-aos="fade-right">
@@ -78,66 +106,28 @@
           </h1>
           <p id="why-mce" data-aos="fade-right">
             i've been a classical musician for three-quarters of my life and
-            through years of performing, i've always learned to tailor my performances to
-            my audience. whether it was a competition judge or grandpa at a family dinner, i
-            constantly strived to help others discover the same joy i felt towards
+            through years of performing, i learned to tailor my performances to
+            my audience. whether it was a competition judge or my grandpa at a family dinner, i
+            wanted to help others experience the same joy i felt for
             the music i shared with them.
             <br>
-            <br>that audience-first mentality carried over into my non-musical endeavors
-            as i explored <b>marketing</b> and <b>design</b> in my college career. working
-            in these roles with a range of audiences, spanning across <a href="https://pacificsymphony.blog/?s=alison+huh&submit=Search" target="_blank">symphony orchestras</a>,
-            <a href="https://funginstitute.berkeley.edu/">university departments,</a>
-            and the <a href="https://calhacks.io/" target="-_blank">hackathon space</a>,
-            i began to pick up a few new skills for each industry, including social media strategy, web development, email marketing, user research, and more!
-            <br>
-            <br>but most importantly, i learned how to quantifiably measure that user, or audience, experience with data for future evaluation,
-            iteration, and improvement.
+            <br>that audience-first mentality carried over into my non-musical work
+            as i started to explore <b>marketing</b> and <b>design</b> in college.
+            <br><br>over the past couple years, i've worked with professional <a href="https://pacificsymphony.org/" target="_blank">symphony orchestras</a>,
+            my school's <a href="https://funginstitute.berkeley.edu/">graduate engineering department,</a>
+            and even the <a href="https://calhacks.io/" target="-_blank">world' largest collegiate hackathon</a>, so i've gotten used to presenting my work
+            to thousands of listeners worldwide from all walks of life.
           </p>
         </div>
         <div id="writers-block" class="col-sm-4" data-aos="fade-left" style="text-align: center;">
           <iframe src="https://open.spotify.com/embed/playlist/4cerylDEM7RfttrVn6TuSx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          calm beats to accompany your read
-          <br>(what i'm listening to as i build this site)
+          you're probably tired of reading this in silence.
+          <br>here's a playlist for you!
         </div>
     </div>
 
-    <h1 id="spotify-heading" class="heading" data-aos="fade-right">
-      breaking it down with some numbers
-    </h1>
-    <div class="row">
-      <div class="col-sm">
-        <p> lorem ipsum i dont fucking know yet. </p>
-      </div>
-    </div>
   </div>
 
-  <div id="spotify-container-3" class="container-fluid">
-      <h1 id="spotify-heading" class="heading" data-aos="fade-right">
-        building communities,
-        one playlist at a time.
-      </h1>
-      <p id="community" data-aos="fade-right">
-        whether it be for an international online hackathon of 2,000 participants
-        or a small class of 39 students, collaborative playlists have time-and-time again
-        been my favorite way to build communities.
-        <br>
-        <br>especially given our virtual circumstances today,
-        curating collaborative playlists like the two below have helped me share my interests, express myself, and bond with peers that
-        i haven't been able to meet in-person.
-      </p>
-      <div class="row" id="community">
-        <div class="col-sm" data-aos="fade-right">
-          <a href="https://open.spotify.com/playlist/682je6HbLDWjPwqr4lDPoQ?si=RaZpdMc5RIulQYcKTjijdw" target="_blank">
-            <img class="collab-play" src="/images/hacknow-playlist.png">
-          </a>
-        </div>
-        <div class="col-sm" data-aos="fade-left">
-          <a href="https://open.spotify.com/playlist/1Nyy3pQVJIq3vWyTpceoLD?si=LauD1Hu5Q6y2LMJtpd2rMQ" target="_blank">
-            <img class="collab-play" src="/images/cubstart-playlist.png">
-          </a>
-        </div>
-    </div>
-  </div>
   <div id="spotify-container-3" class="container-fluid">
       <h1 id="spotify-heading" class="heading" data-aos="fade-right">
         some ideas i'd love to bring to the table
@@ -186,7 +176,8 @@
           <a href="https://www.linkedin.com/in/alison-huh/" class="fa fa-linkedin" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
           <a href="https://twitter.com/resto_in_pesto/" class="fa fa-twitter" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
           <a href="mailto:ali.j.huh@berkeley.edu" class="fa fa-envelope-o" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <p>made with ♡ by ali huh | 2020 </p>
+          <p>made with ♡ by ali huh | 2020
+          <br><a href="#top" style="color:#fbaf40">back to the top ↑</a></p>
       </div>
     </footer>
 
