@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	// typed
 	var aboutTyped = new Typed('#spotify-hi', {
-		strings: ["hi spotify!!"],
+		strings: ["Hi Spotify!!"],
 		typeSpeed: 40,
 		backSpeed: 20,
 		smartBackspace: true,
@@ -15,7 +15,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	// typed
 	var aboutTyped = new Typed('#spotify-carousel', {
-		strings: ["i'm alison, and i'm here to audition for your music culture and editorial team :-)"],
+		strings: ["I'm Alison, and I'm here to audition for your Music Culture and Editorial team :-)"],
 		typeSpeed: 40,
 		backSpeed: 20,
 		smartBackspace: true,
