@@ -193,6 +193,12 @@ p {
   font-size: 1.5rem;
 }
 
+.spotify-body-2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
 #spotify-pics {
   width: 100%;
 }
@@ -231,15 +237,19 @@ p {
 #div-4 {
   width:100%;
   color: white;
-  height: 120%;
+  height: 110%;
 }
-
+#spotify-container-5 {
+  width: 70%;
+  padding-top: 5em;
+  margin-bottom: 5em;
+}
 #community {
   font-size: 18px;
   margin-top: 1em;
 }
 .collab-play {
-  width: 100%;
+  width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
   float: right;
