@@ -34,7 +34,9 @@ p {
 .pink-div {
   background-color: #ff59c7;
 }
-
+.green-div {
+  background-color: #1DB954;
+}
 .logo {
   height: 8em;
   margin-top: 1vw;
@@ -169,8 +171,8 @@ p {
 }
 
 #animated-me {
-  width: 90%;
-
+  width: 100%;
+  margin-top: 3em;
 }
 
 .spotify-heading {
@@ -201,6 +203,7 @@ p {
 
 #spotify-pics {
   width: 100%;
+  border-radius: 10px;
 }
 
 #spotify-container {
@@ -215,7 +218,21 @@ p {
     height: 150%;
     color: white;
 }
-
+#div-4 {
+  width:100%;
+  color: white;
+  height: 110%;
+}
+#div-5 {
+  width: 100%;
+  color: white;
+  height: 35%;
+}
+#div-6 {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
 #spotify-container-2 {
   width: 70%;
   margin-top:14em;
@@ -234,11 +251,7 @@ p {
   padding-top: 5em;
   margin-bottom: 5em;
 }
-#div-4 {
-  width:100%;
-  color: white;
-  height: 110%;
-}
+
 #spotify-container-5 {
   width: 70%;
   padding-top: 5em;
