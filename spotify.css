@@ -171,7 +171,7 @@ p {
 }
 
 #animated-me {
-  width: 100%;
+  width: 80%;
   margin-top: 3em;
 }
 
@@ -206,6 +206,13 @@ p {
   border-radius: 10px;
 }
 
+#spotify-pic-screen {
+  width: 90%;
+  border-radius: 10px;
+  float: right;
+  box-shadow: -2px 5px 5px #333333;
+}
+
 #spotify-container {
   width: 70%;
   margin-top: 5em;
@@ -233,10 +240,20 @@ p {
     height: 110%;
     color: white;
 }
+#div-7 {
+    width: 50%;
+    height: 110%;
+    color: white;
+}
+#div-8 {
+    width: 100%;
+    height: 125%;
+    color: white;
+}
 #spotify-container-2 {
   width: 70%;
-  margin-top:14em;
-  padding-top:2em;
+  margin-top:16em;
+  padding-top:5em;
   margin-bottom: 5em;
 }
 
@@ -257,9 +274,34 @@ p {
   padding-top: 5em;
   margin-bottom: 5em;
 }
+#spotify-container-6 {
+  width: 100%;
+}
+#spotify-container-7 {
+  width: 70%;
+  padding-top: 5em;
+  margin-bottom: 5em;
+}
 #community {
   font-size: 18px;
   margin-top: 1em;
+}
+#users-head {
+  padding-top: 1em;
+  padding-left: 10%;
+}
+#users-first {
+  width: 90%;
+  padding-left: 10%;
+}
+#data-head {
+  padding-top: 1em;
+  padding-left: 10%;
+}
+#data {
+  width: 90%;
+  padding-left: 10%;
+  margin-bottom: 5em;
 }
 .collab-play {
   width: 90%;
@@ -271,8 +313,8 @@ p {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 15px;
+  border-radius: 10px;
 }
-
 @media(max-width: 1050px) {
   #spotify-bg {
     position: static;
