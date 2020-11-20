@@ -337,37 +337,105 @@ p {
   margin-top: 15px;
   border-radius: 10px;
 }
-@media(max-width: 1050px) {
+@media(max-width: 550px) {
   #spotify-bg {
     position: static;
     margin-top: 1em;
   }
   #spotify-container {
-    width: 100%;
-    text-align: center;
+    width: 80%;
     margin-top: 0em;
-    margin-bottom: 3em;
+    margin-bottom:0em;
+    height: auto;
+  }
+  #spotify-hi {
+    font-size: 3rem;
+    font-weight: 600;
   }
   #spotify-carousel {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 3em;
+    font-size: 1.5rem;
   }
+
   #div-2 {
     position: static;
   }
   #about-me {
-    width: 100%;
-    margin-top: 3em;
+    width: 80%;
+    margin-top:0;
     margin-bottom: 3em;
-    text-align: center;
   }
-  #spotify-heading {
-    font-size: 24px;
-    margin: 0;
+  .spotify-heading {
+    font-size: 2.5em;
+  }
+  .spotify-body {
+    font-size:1.2rem;
+  }
+  .spotify-body-2 {
+    margin-bottom: 1em;
   }
   .collab-play {
     width: 100%;
+    position: static;
+    float: none;
+    margin-top: 10px;
+    margin-bottom:2em;
+    height: auto;
+  }
+  #spotify-pic-screen {
+    width: 100%;
+    float:none;
+    margin-bottom:2em;
+  }
+  #concert-collection {
+    width: 80%;
+    margin-bottom: 0em;
+  }
+  #building-communities {
+    width:80%;
+    margin-bottom:0em;
+  }
+  #why-me {
+    width: 80%;
+    margin-bottom: 0;
+  }
+  #users-head {
+    width: 80%;
+  }
+  #data-head {
+    width: 80%;
+  }
+  #my-skills {
+    margin-bottom: 0;
+    height: auto;
+  }
+  #new-ideas {
+    width: 80%;
+  }
+  #spotify-container-7 {
+    width: 80%;
+    margin-bottom: 0;
+  }
+  #spotify-container-9 {
+    padding-bottom: 2em;
+    width:90%;
+  }
+  #div-3 {
+    height: auto;
+  }
+  #div-4 {
+    height: auto;
+  }
+  #div-6 {
+    height: auto;
+  }
+  #div-7 {
+    width: 100%;
+  }
+  #div-8 {
+    height: auto;
+  }
+  #div-10 {
+    height: auto;
   }
 }
 
