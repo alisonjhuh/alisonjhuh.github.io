@@ -11,7 +11,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
-  color: black;
 }
 
 h1 {
@@ -23,7 +22,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -43,6 +42,7 @@ h3 {
   font-size: 32px;
   margin-bottom: .5em;
 }
+
 
 .gold-div {
   background-color: #F7E3AE;
@@ -706,129 +706,18 @@ a:hover.project-org-link {
 /* ---------------------------------------------------- */
 /* ------------------- RESUME PAGE -------------------- */
 /* ---------------------------------------------------- */
-#resume.container-fluid {
-  width: 70%;
+#relevant-exp {
+  width: 80%;
+  margin-top: 3em;
+  margin-left: 10%;
+  font-family: 'Nunito', sans-serif;
 }
 
-/* ---------------------------------------------------- */
-/* ------------------ SPOTIFY PAGE -------------------- */
-/* ---------------------------------------------------- */
-#spotify-bg {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  z-index: -999;
-}
-#spotify-note {
-  position:absolute;
-  bottom:1%;
-  left: 1%;
-}
-#spotify-container {
-  width: 70%;
-  margin-top: 5em;
-  margin-bottom: 5em;
-}
-
-#spotify-carousel {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  margin-top: 1em;
-  margin-bottom: 1vw
-  z-index: 2;
-}
-
-#spotify-heading {
-  margin-top: .5em;
-}
-
-#animated-me {
-  width: 100%;
-  margin-bottom: 3em;
-}
-
-#spotify-container-2 {
-  width: 70%;
-  padding-top: 2em;
-  margin-bottom: 5em;
-}
-#spotify-container-3 {
-  width: 70%;
-  margin-top: 5em;
-  margin-bottom: 5em;
-}
-#users-first {
-  margin-bottom 5em;
-}
-#users-first a {
-  color: black;
-  text-decoration: underline;
-}
-#users-first a:hover{
-  color:#fbaf40;
-}
-#writers-block {
-  margin-bottom: 5em;
-}
-#why-mce {
-  width: 95%;
-  margin-top: 1em;
-  margin-bottom: 5em;
-  font-size: 18px;
-}
-#community {
-  font-size: 18px;
-  margin-top: 1em;
-}
-.collab-play {
-  width: 75%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  float: right;
-}
-.synesthesia {
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-@media(max-width: 1050px) {
-  #spotify-note {
-    display:none;
-  }
-  #spotify-container {
-    width: 100%;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 3em;
-  }
-  #spotify-carousel {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 3em;
-  }
-  #animated-me {
-    width: 80%;
-    margin-bottom: 0em;
-  }
-  #spotify-container-2 {
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    text-align: center;
-  }
-  #spotify-heading {
-    font-size: 24px;
-    margin: 0;
-  }
-  #why-mce {
-    width: 100%;
-    margin-bottom: 2em;
-    font-size: 16px;
-  }
-  .collab-play {
-    width: 100%;
-  }
+#relevant-exp ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  line-height: 2.5;
 }
 
 
