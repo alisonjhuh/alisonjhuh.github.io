@@ -3,12 +3,12 @@ $(document).ready(function() {
 	// typed
 	var aboutTyped = new Typed('#iam-carousel', {
 		strings: ["hi there!", "i'm alison huh :-)",
-		"i'm a junior @ uc berkeley",
-		"i'm an aspiring technologist",
+		"i'm from los angeles",
 		"i'm a digital marketer",
-		"i'm a (former) flautist",
-		"i'm a playlist afficionado",
-		"and i prefer public transit!"],
+		"i'm a technical writer",
+		"i'm a playlist curator",
+		"i'm quarantining!",
+		"i'm doing the best i can. ☺️"],
 		typeSpeed: 60,
 		backSpeed: 40,
 		smartBackspace: true,
