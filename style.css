@@ -234,7 +234,6 @@ h3 {
 /* ---------------------------------------------------- */
 
 #about {
-  position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   padding-top: 15vh;
@@ -243,10 +242,9 @@ h3 {
 }
 
 #about-desc {
-  position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   padding-left: 2em;
   padding-right: 2em;
   letter-spacing: 3px;
