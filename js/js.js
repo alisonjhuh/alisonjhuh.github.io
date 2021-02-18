@@ -6,6 +6,8 @@ $(document).ready(function() {
 		"i'm from los angeles",
 		"i'm a digital marketer",
 		"i'm a technical writer",
+		"i'm a hackathon director",
+		"i'm a student educator",
 		"i'm a playlist curator",
 		"i'm quarantining!",
 		"i'm doing the best i can. ☺️"],
