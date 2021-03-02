@@ -10,7 +10,7 @@ $(document).ready(function() {
 		"i'm a student educator",
 		"i'm a playlist curator",
 		"i'm quarantining!",
-		"i'm doing the best i can. ☺️"],
+		"i'm doing my best. ☺️"],
 		typeSpeed: 60,
 		backSpeed: 40,
 		smartBackspace: true,
