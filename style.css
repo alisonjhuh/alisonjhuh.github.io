@@ -408,10 +408,6 @@ a:hover {
 .spec-item {
   padding-right: 1.5rem;
 }
-
-/********************************/
-/*********** MONGODB ************/
-/********************************/
 .proj-header {
   display: flex;
   flex-direction: column;
@@ -625,6 +621,9 @@ footer {
     width: 85vw;
     text-align: center;
   }
+  .project-text h2{
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -633,6 +632,9 @@ footer {
   }
   h2 {
     font-size: 28px !important;
+  }
+  h5 {
+    font-size: 2rem!important;
   }
   p {
     font-size: 16px !important;
@@ -671,5 +673,46 @@ footer {
     width: 88vw;
     text-align: center;
     padding-left: 7.5vw;
+  }
+
+
+  /** PROJECT PAGES **/
+  .proj-container {
+    margin-top: 80px;
+  }
+  .proj-spec {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .spec-item {
+    padding-right: 0;
+  }
+  .proj-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .proj-header h1 {
+    font-size: 2.5rem !important;
+  }
+  .hero-img img {
+    width: 100%;
+  }
+  .proj-subtitle {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .proj-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+  .proj-content {
+    width: 100%;
+  }
+  .callout {
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 }
