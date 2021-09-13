@@ -5,8 +5,8 @@
       <title>alison huh</title>
       <meta charset="utf-8">
       <meta property='og:title' content='alison huh'/>
-      <meta property="og:image" content='https://alisonhuh.com/images/index.jpg'/>
-      <meta property='og:description' content='welcome to my personal website :)'/>
+      <meta property='og:description' content='Hi there! I’m a fourth-year English major at UC Berkeley,
+      currently working as a Technical Writer Intern at MongoDB.'/>
       <meta property='og:url' content='https://alisonhuh.com'/>
 
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,8 +26,8 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
       <!-- FONTS -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700">
 
       <!-- JAVASCRIPT -->
       <script src="js/jquery_typed.js"></script>
@@ -47,126 +47,129 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
-  <body>
-    <a href="/">
-      <img class="logo" src="images/logo.jpg" alt="Ali Huh logo" class="img-fluid">
-    </a>
+  <body style="background-color: #fffbf1;">
+    <header class="header">
+      <nav class="navbar">
+        <a class="brand" href="/"><img class="logo" src="images/logo.png" alt="Ali Huh logo" class="img-fluid"></a>
+        <input type="checkbox" id="nav" class="hidden">
+        <label for="nav" class="nav-toggle">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </label>
+        <div class="wrapper">
+          <ul class="menu">
+            <li class="menu-item highlight-menu active-menu"><a href="/">work</a></li>
+            <li class="menu-item highlight-menu"><a href="about.html">about</a></li>
+            <li class="menu-item highlight-menu"><a href="play.html">play</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-      <div class="overlay-content">
-        <a href="/">home</a>
-        <a href="/about.html">about</a>
-        <a href="/projects.html">projects</a>
-        <a href="/resume.html">resume</a>
+    <div class="hero" data-aos="fade-up">
+      <div id="index">
+          <img src="images/egg.png" alt="ali huh">
+      </div>
+      <div id="desc">
+        <h1 id="iam-carousel"></h1>
+        <p>
+          I’m a fourth-year English major at UC Berkeley, currently working as a
+          Technical Writer Intern at MongoDB. Nice to meet you!
+        </p>
+        <a class="button" href="/about.html">
+          learn more
+        </a>
       </div>
     </div>
-    <span id="menu" onclick="openNav()">&#9776;</span>
+    <a href="#highlights"><div class="scroll"></div></a>
 
 
-    <h1 id="iam-carousel" data-aos="fade-left"></h1>
-    <div id="index" data-aos="fade-right">
-        <img src="images/egg.jpg" alt="ali huh">
-    </div>
-
-    <div id="desc" data-aos="fade-left">
-    <p style="margin-top: 20px; margin-bottom: 30px;">
-      i'm alison, a korean-american enfp with a knack for unconventional storytelling,
-      studying english and computer science at uc berkeley.
-    </p>
-    </div>
-
-    <div class="arrow bounce">
-      <a class="fa fa-arrow-down fa-2x" href="#about-me"></a>
-    </div>
-
-
-    <div id="about-me" style="text-align: center;">
-      <div id="about">
-        <h1 class="heading">what i'm working on nowadays</h1>
+    <div id="highlights">
+      <div class="headers">
+        <h1> what i've worked on — </h1>
+        <div class="blank"> </div>
       </div>
-      <div id="about-desc">
-        <br>
-        incoming technical writer @ <b><a href="https://mongodb.com/" target="_blank">mongodb</a></b> ✍️
-        <br><br>
-        executive director @ <b><a href="https://calhacks.io" target="_blank">cal hacks</a></b> 🧸
-        <br><br>
-        conservation + tech fellow @ <b><a href="https://fungfellows.berkeley.edu" target="_blank">the fung fellowship</a></b> 🌱
-        <br><br>
-        web ta @ <b><a href="https://calhacks.io/cubstart" target="_blank">cubstart: introduction to building apps</a></b> 💻
-        <br>  <br>
-        digital marketing intern @ <b><a href="https://funginstitute.berkeley.edu" target="_blank"> the fung institute</a></b> 👩‍💻
-        <br>
-        <br>
-        <br>
-        learn more <b><a href="/about.html">about me</a></b> or <b><a href="/resume.html">my work</a></b>
+      <div id="highlighted-work">
+        <div class="project">
+          <a href="/mongodb.html"><img class="project-img" src="images/mongodb.png" alt="MongoDB"></a>
+          <div class="project-text">
+            <h2> MongoDB <br>Core Server Documentation</h2>
+            <p>
+              An overview of my summer at MongoDB, my contributions to their
+              server documentation, and additional side projects.
+            </p>
+            <a class="button" href="/mongodb.html">
+              see project
+            </a>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="arrow bounce">
-      <a class="fa fa-arrow-down fa-2x" href="#currently-listening"></a>
-    </div>
-
-    <div id="currently-listening" class="container-fluid">
-      <h1 class="heading"> here's what i'm currently listening to! </h1><br>
-      <div class="row">
-        <div class="col-sm playlist">
-          <a href="https://open.spotify.com/playlist/1xxu9UpyGvg8SKXKXwWhFo?si=TqiKNkdzQ9OT0GJj4KKmjw" target="_blank">
-            <img class="img-fluid" src="images/everchanging.jpg" alt="everchanging playlist cover">
-            <h3 class="playlist-title"> everchanging </h3>
-            <p> my current top 10 tracks, updated continuously </p>
-          </a>
+        <div class="project">
+          <a href="/bfr.html"><img class="project-img" src="images/bfr.png" alt="the berkeley fiction review"></a>
+          <div class="project-text">
+            <h2> Berkeley Fiction Review <br>Website Redesign</h2>
+            <p>
+              Hauling Berkeley Fiction Review's website into the 21st century
+              to highlight past issues, bolster online sales, and kickstart their
+              online blog.
+            </p>
+            <a class="button" href="/bfr.html">
+              see project
+            </a>
+          </div>
         </div>
-        <div class="col-sm playlist">
-          <a href="https://open.spotify.com/playlist/3jX2pCfpeV0usqg7HpSFQG?si=P7iS3jBvQ8erVTEC1fJ0Vg" target="_blank">
-            <img class="img-fluid" src="images/jieun.jpg" alt="지은 playlist cover">
-            <h3 class="playlist-title"> 지은 </h3>
-            <p> the essentials from over the years </p>
-          </a>
+        <div class="project">
+          <a href="/eng185.html"><img class="project-img" src="/images/eng185.png" alt="engineering 185: the art of stem communication"></a>
+          <div class="project-text">
+            <h2>Engineering 185 <br> Investigating Squishy Robotics</h2>
+            <p>
+              Interviewing UC Berkeley Mechanical Engineering Professor Alice Agogino,
+              on her inspiration for Squishy Robotics and her outlook for the company.
+            </p>
+            <a class="button" href="/eng185.html">
+              see project
+            </a>
+          </div>
         </div>
-        <div class="col-sm playlist">
-          <a href="https://open.spotify.com/playlist/6n48m7DNGMXEEo8rjisZD9?si=ZARt_AzKSnmQWaeQA9Bjiw" target="_blank">
-            <img class="img-fluid" src="images/monthly.png" alt="November 2020 playlist cover">
-            <h3 class="playlist-title"> JAN 21 </h3>
-            <p> monthly playlist: january 2021 </p>
-          </a>
-        </div>
-        <div class="col-sm playlist">
-          <a href="https://open.spotify.com/playlist/34xaWBYnlIFVqenmsZQ4Vz?si=0VcMQiUiQhOhHlH_lMZWZA" target="_blank">
-            <img class="img-fluid" src="images/2020.png" alt="2020 one song a week">
-            <h3 class="playlist-title"> 2020 </h3>
-            <p> 2020: a year in review </p>
-          </a>
+        <div class="project">
+          <a href="/hacknow.html"><img class="project-img" src="/images/hacknow.png" alt="hack:now presented by cal hacks"></a>
+          <div class="project-text">
+            <h2>Cal Hacks<br>hack:now</h2>
+            <p>
+              How a team of 25 students created, marketed, and executed a
+              global online hackathon in 4 weeks to tackle challenges faced
+              during the early onset of the COVID-19 pandemic.
+            </p>
+            <a class="button" href="/hacknow.html">
+              see project
+            </a>
+          </div>
         </div>
       </div>
     </div>
-
-
-    <!-- Calendly badge widget begin -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-    <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/ali-j-huh/1-1', text: 'let\'s connect!', color: '#fbaf40', textColor: '#ffffff', branding: false });</script>
-    <!-- Calendly badge widget end -->
 
 
     <footer>
-      <div id="footer">
-        <!-- Add icon library -->
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-          <!-- Add font awesome icons -->
-          <a href="https://instagram.com/ali.j.huh/" class="fa fa-instagram" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <a href="https://open.spotify.com/user/1241342085?si=0BUgHCebSV-4rfznInDiYg" class="fa fa-spotify" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <a href="https://www.linkedin.com/in/alison-huh/" class="fa fa-linkedin" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <a href="https://twitter.com/resto_in_pesto/" class="fa fa-twitter" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <a href="mailto:ali.j.huh@berkeley.edu" class="fa fa-envelope-o" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
-          <p>made with ♡ by ali huh | 2021 <br>
-            <a href="#top" style="color:#fbaf40">back to the top ↑</a>
-          </p>
-      </div>
+        <!-- Add font awesome icons -->
+        <a href="https://instagram.com/ali.j.huh/" class="fa fa-instagram" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
+        <a href="https://open.spotify.com/user/1241342085?si=0BUgHCebSV-4rfznInDiYg" class="fa fa-spotify" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/alison-huh/" class="fa fa-linkedin" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
+        <!-- <a href="https://twitter.com/resto_in_pesto/" class="fa fa-twitter" style="font-size: 25px; text-decoration: none;" target="_blank"></a> -->
+        <a href="mailto:ali.j.huh@berkeley.edu" class="fa fa-envelope-o" style="font-size: 25px; text-decoration: none;" target="_blank"></a>
+        <p>made with ♡ by ali huh | 2021 <br>
+          <a class="highlight-menu" href="#top" style="color:#fbaf40">back to the top ↑</a>
+        </p>
     </footer>
 
+  <!-- Carousel elements -->
   <script src="js/js.js"></script>
+
+  <!--AOS -->
+  <script> AOS.init({ duration: 1000, once: true }); </script>
   </body>
 </html>

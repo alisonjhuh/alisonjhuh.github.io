@@ -1,0 +1,795 @@
+/* ---------------------------------------------------- */
+/* --------------------- GENERAL ---------------------- */
+/* ---------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  height: 8em;
+  margin-top: 1vw;
+  margin-left: 2vw;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight:600;
+  font-family: 'Montserrat';
+}
+
+.heading-2 {
+  font-family: 'Nunito';
+  font-size: 32px;
+  margin-bottom: .5em;
+}
+
+
+.gold-div {
+  background-color: #F7E3AE;
+}
+
+.row {
+  margin-bottom: 2em;
+}
+
+#container.container-fluid {
+  padding-left: 15%;
+  padding-right:15%;
+}
+
+@media(max-width: 1050px) {
+  .logo {
+    height: 10vh;
+    margin: 1vh;
+  }
+  .heading {
+    font-size: 32px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .heading-2 {
+    font-size: 28px;
+  }
+  #container.container-fluid {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- MENU/NAV ---------------------- */
+/* ---------------------------------------------------- */
+
+#menu {
+  font-size:45px;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  float: right;
+  color: black;
+  cursor:pointer;
+}
+
+.overlay {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  font-family: 'Nunito';
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0em;
+  right: .3em;
+  font-size: 60px;
+}
+
+@media (max-width: 1050px) {
+    #menu {
+    top: 0;
+    right: .3em;
+  }
+  .overlay .closebtn {
+    margin-top: -.3em;
+    right: .25em;
+    font-size: 50px;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------- INDEX ------------------------ */
+/* ---------------------------------------------------- */
+
+#iam-carousel {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+	text-align: left;
+	position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 50%;
+  margin-bottom: 1vw
+  z-index: 2;
+}
+
+#desc {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  left: 50%;
+  width: 36%;
+  top: 45%;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+ #index img {
+   width: 45vh;
+   margin-top: 2%;
+   margin-left: 15%;
+   margin-bottom: 2%;
+}
+
+.arrow {
+  text-align: center;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@media(max-width: 1050px) {
+  #iam-carousel {
+    position: static;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  #desc {
+    text-align: center;
+    font-size:18px;
+    position: static;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 100vw;
+  }
+  #index img {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    height: auto;
+    padding: 2em;
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------- ABOUT ------------------------ */
+/* ---------------------------------------------------- */
+
+#about {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding-top: 15vh;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+#about-desc {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10vh;
+  padding-left: 2em;
+  padding-right: 2em;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+#about-desc a {
+  color: #fbaf40;
+  text-decoration: underline;
+}
+
+#about-desc a:hover {
+  color: black;
+}
+
+@media(max-width: 1050px) {
+  #about {
+    font-size: 20px;
+    position: static;
+    width: 100vw;
+    padding-top: 5em;
+    left: auto;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+  #about-desc {
+    font-size: 16px;
+    position: static;
+    width: 100vw;
+    padding-top: 2em;
+    padding-bottom: 5em;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- ABOUT PAGE --------------------- */
+/* ---------------------------------------------------- */
+
+#full-about {
+  width: 74%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#full-about a {
+  color: black;
+  text-decoration: underline;
+}
+
+#full-about a:hover {
+  color: #fbaf40;
+}
+
+#walk {
+  width: 100%;
+}
+
+#full-about-desc {
+  margin-top: 1em;
+  width: 90%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+#current {
+  width: 70%;
+  margin-top: 6%;
+  margin-left: 15%;
+  margin-bottom: 5em;
+}
+
+#current a {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #fbaf40;
+}
+
+#current a:hover {
+  color: black;
+}
+
+#currently-about {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.about-img {
+  width: 80%;
+  margin-top: -1.5em;
+  border-radius: 15px;
+  box-shadow: -15px 15px #fbaf40;
+}
+
+@media (max-width: 1050px) {
+  #current {
+    width: 100%;
+  }
+
+  #full-about {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15%;
+    margin-bottom: 5em;
+    text-align: center;
+  }
+
+  #full-about h1 {
+    width: 100%;
+  }
+
+  #walk {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: static;
+  }
+
+  #full-about-desc {
+    position: static;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #current {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-img {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    width: 75%;
+    box-shadow: none;
+    position: static;
+  }
+
+  #recently {
+    position: static;
+    left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    top: 1.5em;
+  }
+
+  #currently-about {
+    position: static;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- PLAYLISTS --------------------- */
+/* ---------------------------------------------------- */
+
+#currently-listening {
+  margin-top: 9em;
+  text-align: center;
+}
+
+@media(max-width: 1050px) {
+  #currently-listening {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+}
+
+#playlist-grid {
+  display:flex;
+}
+
+@media(max-width:1050px) {
+  #playlist-grid {
+    display:block;
+  }
+}
+
+.playlist a {
+  color: black;
+}
+
+.playlist a:hover {
+  color: #fbaf40;
+  text-decoration: none;
+}
+
+@media(max-width:1050px) {
+  .playlist p {
+    display:none;
+  }
+}
+
+.playlist .img-fluid {
+  width: 65%;
+  box-shadow: -10px 10px #fbaf40;
+}
+
+@media(max-width: 1050px) {
+  .playlist .img-fluid {
+    text-align: center;
+    width: 40%;
+    height: auto;
+    display:inline;
+    margin: 1em;
+  }
+}
+
+.playlist-title {
+  margin-top: 1em;
+  font-size: 24px;
+}
+
+@media(max-width: 1050px) {
+  .playlist-title {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- PROJECTS ---------------------- */
+/* ---------------------------------------------------- */
+
+#projects {
+  position: fixed;
+  width: 25%;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+#project-div.gold-div {
+  height: 100%;
+  padding: 10px;
+  width: 64%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -999;
+  box-shadow: -5px 0px 5px 0px #BFBFBF;
+}
+
+#projects .heading {
+  font-size: 36px;
+}
+
+.project-container {
+  position: relative;
+  width: 40%;
+  left: 48%;
+  margin-top: 3em;
+  padding-bottom: 1em;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 10px -10px  #fbaf40;
+}
+
+.project-name {
+  margin-top: 1em;
+  margin-left: .5em;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: black;
+  font-size: 28px;
+}
+
+.project-name a {
+  color: black;
+}
+
+.project-name a:hover {
+  color: white;
+}
+
+.project-desc {
+  font-family: 'Nunito';
+  font-size: 20px;
+  margin-top: 1em;
+  margin-left: .75em;
+}
+
+#project-footer {
+  position: fixed;
+  width: 36%;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2vw;
+  font-size: large;
+  color: #cdcdcd
+}
+
+.collab-role {
+  font-style: italic;
+}
+
+@media(max-width: 1050px) {
+  #project-div.gold-div {
+    display: none;
+  }
+
+  #projects {
+    position: static;
+    text-align:center;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10%;
+  }
+
+  #projects .heading {
+    font-size: 32px;
+  }
+
+  .project-container {
+    text-align: center;
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+
+  .project-img {
+    margin-top: 3em;
+    width:80%;
+  }
+
+  .project-name {
+    font-size: 20px;
+  }
+
+  .project-name a {
+    color: black;
+  }
+
+  .project-name a:hover {
+    color: #fbaf40;
+  }
+
+  .project-desc {
+    font-size: 16px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  #project-footer {
+    width: 100%;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* ------------- GENERAL PROJECTS PAGES --------------- */
+/* ---------------------------------------------------- */
+
+.project-title {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 48px;
+  margin-left: 15%;
+}
+
+.project-main-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 2em;
+}
+
+.half-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.org, .roles, .timeline, .description, .collab {
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a.project-org-link {
+  color: #fbaf40;
+}
+
+a:hover.project-org-link {
+  color: black;
+  text-decoration: underline;
+}
+
+@media(max-width: 1050px) {
+  .project-title {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .project-spec {
+    margin-bottom: 2em;
+  }
+  .container #text{
+    font-size: 20px;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- HACK:NOW ---------------------- */
+/* ---------------------------------------------------- */
+#title-div.gold-div {
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  z-index: -999;
+  box-shadow: -5px 0px 5px 0px #BFBFBF;
+}
+
+@media(max-width: 1050px) {
+  #title-div.gold-div {
+    height: 7%;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* -------------- BFR WEBSITE REDESIGN ---------------- */
+/* ---------------------------------------------------- */
+#bfr-div.gold-div {
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  z-index: -999;
+  box-shadow: -5px 0px 5px 0px #BFBFBF;
+}
+
+@media(max-width: 1050px) {
+  #bfr-di.gold-div {
+    height: 15%;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* ----------------  ENGINEERING 185  ----------------- */
+/* ---------------------------------------------------- */
+.pdf-img {
+  width: 100%;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- RESUME PAGE -------------------- */
+/* ---------------------------------------------------- */
+.experience-header {
+  font-weight: 600;
+  color: #fbaf40;
+  margin-bottom: .5em;
+  letter-spacing: .3em;
+}
+#relevant-exp {
+  width: 80%;
+  margin-top: 2em;
+  margin-left: 10%;
+  font-family: 'Nunito', sans-serif;
+}
+#relevant-exp ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  line-height: 2.2;
+}
+#past-exp ul li {
+  border-left: 5px solid #fbaf40;
+  padding-left: 20px;
+}
+#face {
+  width: 100%;
+}
+#skills {
+  margin-right: 10%;
+  margin-top: 2em;
+  text-align: right;
+  font-family: 'Nunito', sans-serif;
+}
+#skills ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  line-height: 2.2;
+}
+#skills ul li {
+  border-right: 5px solid #fbaf40;
+  padding-right: 20px;
+}
+#resume-link {
+  text-align: left;
+  margin-left: 11%;
+}
+#resume-link a {
+  color: #fbaf40;
+  font-weight: 600;
+  letter-spacing: .3em;
+}
+@media (max-width: 1050px) {
+  #resume-link{
+    height: auto;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------- FOOTER ----------------------- */
+/* ---------------------------------------------------- */
+
+#footer {
+  position: relative;
+  text-align: center;
+  padding-top: 5vw;
+  margin-top: 2em;
+  margin-bottom: 2vw;
+  font-size: large;
+  width: 100%;
+  color: #cdcdcd
+}
+
+.fa {
+  padding: 15px;
+  width: 80px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+.fa:hover {
+    opacity: 1.0;
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width: 1050px) {
+  .fa {
+    width: 60px;
+  }
+}
