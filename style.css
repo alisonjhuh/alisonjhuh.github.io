@@ -318,14 +318,15 @@ a:hover {
   margin-bottom: 40px;
 }
 #about-img img {
-  width: 360px;
-  margin-left: 5vw;
-  filter: drop-shadow(0px 10px 40px rgba(33, 49, 60, 0.25));
+  margin-top:48px;
+  width: 450px;
+  filter: drop-shadow(0px 10px 40px rgba(33, 49, 60, 0.4));
 }
 
 #about-desc {
-  width: 45vw;
-  padding-left: 5vw;
+  width: 50vw;
+  padding-left: 1vw;
+  padding-right: 4vw;
 }
 
 #about-desc h1 {
@@ -670,7 +671,8 @@ footer {
   }
   #about-img img {
     width: 100vw;
-    margin-left:0;
+    padding-left:5vw;
+    padding-right:8vw;
     margin-bottom: 24px;
     box-shadow: none;
   }
