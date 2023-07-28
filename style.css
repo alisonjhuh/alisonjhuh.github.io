@@ -29,13 +29,13 @@ body {
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 2rem;
   font-weight: 700 !important;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700 !important;
@@ -46,11 +46,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 600 !important;
     font-size: 1.25rem;
     margin: .5rem 0;
@@ -58,7 +58,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 2.5rem !important;
   font-style: normal;
   font-weight: 400;
@@ -430,7 +430,7 @@ a:hover {
   width: 62%;
 }
 .callout {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 500;
   font-size: 1.5rem;
   margin: 0 0 1rem 0;
@@ -484,7 +484,7 @@ a:hover {
   }
 
 .playlist-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   margin-bottom:0 !important;
   text-align: center;
   font-weight: bold;
