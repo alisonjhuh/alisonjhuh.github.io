@@ -520,6 +520,10 @@ footer {
   padding-bottom: 5vh;
 }
 
+footer p { 
+  font-size: 14px !important;
+}
+
 
 .fa {
   padding: 15px;
