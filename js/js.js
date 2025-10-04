@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	// typed
 	var aboutTyped = new Typed('#iam-carousel', {
-		strings: ["I'm Ali Huh ٩(ˊωˋ*)و "],
+		strings: ["i'm ali huh ٩(ˊωˋ*)و "],
 		typeSpeed: 60,
 		startDelay: 100,
 		fadeOut: false,
